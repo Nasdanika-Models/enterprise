@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="enterprise" nsURI="ecore://nasdanika.org/models/enterprise"
+    nsPrefix="org.nasdanika.models.enterprise">
+  <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value="A model of an enterprise and its relationship to a semantic domain"/>
+  </eAnnotations>
+  <eClassifiers xsi:type="ecore:EClass" name="Enterprise">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operatesOn" upperBound="-1"
+        eType="#//SemanticDomain"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="stakeholders" lowerBound="1"
+        upperBound="-1" eType="#//Stakeholder"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Stakeholder">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="concerns" lowerBound="1"
+        upperBound="-1" eType="#//Concern"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="communicatesWith" upperBound="-1"
+        eType="#//Message"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Concern"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SemanticDomainKind">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="governs" upperBound="-1"
+        eType="#//SemanticDomain"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" lowerBound="1"
+        upperBound="-1" eType="#//SemanticElementKind" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SemanticDomain">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" lowerBound="1"
+        upperBound="-1" eType="#//SemanticElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SemanticElementKind">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="governs" upperBound="-1"
+        eType="#//SemanticElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SemanticElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="representedBy" upperBound="-1"
+        eType="#//RepresentationElement" eOpposite="#//RepresentationElement/represents"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SemanticDomainDescription">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="describes" lowerBound="1"
+        upperBound="-1" eType="#//SemanticDomain"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="views" lowerBound="1" upperBound="-1"
+        eType="#//View" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Viewpoint">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="frames" lowerBound="1"
+        upperBound="-1" eType="#//Concern"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="governs" upperBound="-1"
+        eType="#//View"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="domains" lowerBound="1"
+        upperBound="-1" eType="#//SemanticDomainKind"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="representations" lowerBound="1"
+        upperBound="-1" eType="#//RepresentationKind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="View">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="representations" lowerBound="1"
+        upperBound="-1" eType="#//Representation" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Message" eSuperTypes="#//View">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="deliveredBy" upperBound="-1"
+        eType="#//Channel"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Channel"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RepresentationKind">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="governs" upperBound="-1"
+        eType="#//Representation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" lowerBound="1"
+        upperBound="-1" eType="#//RepresentationElementKind" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="domains" lowerBound="1"
+        upperBound="-1" eType="#//SemanticDomainKind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RepresentationElementKind">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="represents" upperBound="-1"
+        eType="#//SemanticElementKind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Representation">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" lowerBound="1"
+        upperBound="-1" eType="#//RepresentationElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RepresentationElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="represents" upperBound="-1"
+        eType="#//SemanticElement" eOpposite="#//SemanticElement/representedBy"/>
+  </eClassifiers>
+</ecore:EPackage>
