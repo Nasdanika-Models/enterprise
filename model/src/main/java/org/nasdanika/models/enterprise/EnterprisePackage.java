@@ -18,9 +18,6 @@ import org.eclipse.emf.ecore.EReference;
  *   <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
- * <!-- begin-model-doc -->
- * A model of an enterprise and its relationship to a semantic domain
- * <!-- end-model-doc -->
  * @see org.nasdanika.models.enterprise.EnterpriseFactory
  * @model kind="package"
  * @generated
