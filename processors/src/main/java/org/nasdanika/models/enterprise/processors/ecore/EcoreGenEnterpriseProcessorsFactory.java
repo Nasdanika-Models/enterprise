@@ -91,12 +91,24 @@ public class EcoreGenEnterpriseProcessorsFactory {
 			icon = "https://img.icons8.com/color/48/client-company.png",
 			description = "A model of an enterprise operating on semantic domains",
 			documentation =  """		
-				A model of an enterprise and its relationship to semantic domains it operates on
+				A model of an enterprise and its relationship to semantic domains it operates on.
 										
 				```drawio-resource
 				enterprise.drawio
 				```						
 						
+				This model can be used to:
+				
+				* Establish a shared terminology and drive understanding of enterprise information pathways
+				* Document a particular enterprise - mission, stakeholders, concerns, ...
+				* Continously adjust the enterprise to immprove its efficiency by identifying and refining views, messages, channels and other elements
+				
+				One way to think about improvement of efficiency is minimization of the "loss function" - total amount of effort required to 
+				successfully pass messages between stakeholders.
+				I.e. the receiving stakholder(s) fully understand the intent of the sender stakholder(s). 
+				This function is highly dependent on the structure of the enterprise. 
+				For example, a co-located team of senior developers might need just a whiteboard.
+				At the same time an open source project with multiple contributors and consumers/users from around the globe wouldn't be able to function with just a whiteboard.    				  										
 				"""
 	)
 	public EPackageNodeProcessor createEPackageProcessor(
