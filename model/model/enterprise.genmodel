@@ -38,8 +38,8 @@
     <genClasses ecoreClass="enterprise.ecore#//Viewpoint">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference enterprise.ecore#//Viewpoint/frames"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference enterprise.ecore#//Viewpoint/governs"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference enterprise.ecore#//Viewpoint/domains"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference enterprise.ecore#//Viewpoint/representations"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference enterprise.ecore#//Viewpoint/domainKinds"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference enterprise.ecore#//Viewpoint/representationKinds"/>
     </genClasses>
     <genClasses ecoreClass="enterprise.ecore#//View">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference enterprise.ecore#//View/representations"/>

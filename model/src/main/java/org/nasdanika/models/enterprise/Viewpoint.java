@@ -17,8 +17,8 @@ import org.eclipse.emf.ecore.EObject;
  * <ul>
  *   <li>{@link org.nasdanika.models.enterprise.Viewpoint#getFrames <em>Frames</em>}</li>
  *   <li>{@link org.nasdanika.models.enterprise.Viewpoint#getGoverns <em>Governs</em>}</li>
- *   <li>{@link org.nasdanika.models.enterprise.Viewpoint#getDomains <em>Domains</em>}</li>
- *   <li>{@link org.nasdanika.models.enterprise.Viewpoint#getRepresentations <em>Representations</em>}</li>
+ *   <li>{@link org.nasdanika.models.enterprise.Viewpoint#getDomainKinds <em>Domain Kinds</em>}</li>
+ *   <li>{@link org.nasdanika.models.enterprise.Viewpoint#getRepresentationKinds <em>Representation Kinds</em>}</li>
  * </ul>
  *
  * @see org.nasdanika.models.enterprise.EnterprisePackage#getViewpoint()
@@ -51,27 +51,27 @@ public interface Viewpoint extends EObject {
 	EList<View> getGoverns();
 
 	/**
-	 * Returns the value of the '<em><b>Domains</b></em>' reference list.
+	 * Returns the value of the '<em><b>Domain Kinds</b></em>' reference list.
 	 * The list contents are of type {@link org.nasdanika.models.enterprise.SemanticDomainKind}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Domains</em>' reference list.
-	 * @see org.nasdanika.models.enterprise.EnterprisePackage#getViewpoint_Domains()
+	 * @return the value of the '<em>Domain Kinds</em>' reference list.
+	 * @see org.nasdanika.models.enterprise.EnterprisePackage#getViewpoint_DomainKinds()
 	 * @model required="true"
 	 * @generated
 	 */
-	EList<SemanticDomainKind> getDomains();
+	EList<SemanticDomainKind> getDomainKinds();
 
 	/**
-	 * Returns the value of the '<em><b>Representations</b></em>' reference list.
+	 * Returns the value of the '<em><b>Representation Kinds</b></em>' reference list.
 	 * The list contents are of type {@link org.nasdanika.models.enterprise.RepresentationKind}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Representations</em>' reference list.
-	 * @see org.nasdanika.models.enterprise.EnterprisePackage#getViewpoint_Representations()
+	 * @return the value of the '<em>Representation Kinds</em>' reference list.
+	 * @see org.nasdanika.models.enterprise.EnterprisePackage#getViewpoint_RepresentationKinds()
 	 * @model required="true"
 	 * @generated
 	 */
-	EList<RepresentationKind> getRepresentations();
+	EList<RepresentationKind> getRepresentationKinds();
 
 } // Viewpoint

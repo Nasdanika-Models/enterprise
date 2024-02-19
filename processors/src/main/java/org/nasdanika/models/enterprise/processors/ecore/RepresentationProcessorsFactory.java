@@ -33,7 +33,7 @@ public class RepresentationProcessorsFactory {
 					Representation is a group of related [representation elements](../RepresentationElement/index.html). 
 					For example:
 					
-					* Diagram
+					* Diagram, say, [family diagram](https://family.models.nasdanika.org/index.html) or [sample family diagram](https://family.models.nasdanika.org/demos/mapping/index.html)
 					* Table
 					* List
 					* Chart/Graph

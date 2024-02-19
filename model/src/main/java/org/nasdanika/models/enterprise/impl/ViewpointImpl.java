@@ -27,8 +27,8 @@ import org.nasdanika.models.enterprise.Viewpoint;
  * <ul>
  *   <li>{@link org.nasdanika.models.enterprise.impl.ViewpointImpl#getFrames <em>Frames</em>}</li>
  *   <li>{@link org.nasdanika.models.enterprise.impl.ViewpointImpl#getGoverns <em>Governs</em>}</li>
- *   <li>{@link org.nasdanika.models.enterprise.impl.ViewpointImpl#getDomains <em>Domains</em>}</li>
- *   <li>{@link org.nasdanika.models.enterprise.impl.ViewpointImpl#getRepresentations <em>Representations</em>}</li>
+ *   <li>{@link org.nasdanika.models.enterprise.impl.ViewpointImpl#getDomainKinds <em>Domain Kinds</em>}</li>
+ *   <li>{@link org.nasdanika.models.enterprise.impl.ViewpointImpl#getRepresentationKinds <em>Representation Kinds</em>}</li>
  * </ul>
  *
  * @generated
@@ -92,8 +92,8 @@ public class ViewpointImpl extends MinimalEObjectImpl.Container implements Viewp
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public EList<SemanticDomainKind> getDomains() {
-		return (EList<SemanticDomainKind>)eDynamicGet(EnterprisePackage.VIEWPOINT__DOMAINS, EnterprisePackage.Literals.VIEWPOINT__DOMAINS, true, true);
+	public EList<SemanticDomainKind> getDomainKinds() {
+		return (EList<SemanticDomainKind>)eDynamicGet(EnterprisePackage.VIEWPOINT__DOMAIN_KINDS, EnterprisePackage.Literals.VIEWPOINT__DOMAIN_KINDS, true, true);
 	}
 
 	/**
@@ -103,8 +103,8 @@ public class ViewpointImpl extends MinimalEObjectImpl.Container implements Viewp
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public EList<RepresentationKind> getRepresentations() {
-		return (EList<RepresentationKind>)eDynamicGet(EnterprisePackage.VIEWPOINT__REPRESENTATIONS, EnterprisePackage.Literals.VIEWPOINT__REPRESENTATIONS, true, true);
+	public EList<RepresentationKind> getRepresentationKinds() {
+		return (EList<RepresentationKind>)eDynamicGet(EnterprisePackage.VIEWPOINT__REPRESENTATION_KINDS, EnterprisePackage.Literals.VIEWPOINT__REPRESENTATION_KINDS, true, true);
 	}
 
 	/**
@@ -119,10 +119,10 @@ public class ViewpointImpl extends MinimalEObjectImpl.Container implements Viewp
 				return getFrames();
 			case EnterprisePackage.VIEWPOINT__GOVERNS:
 				return getGoverns();
-			case EnterprisePackage.VIEWPOINT__DOMAINS:
-				return getDomains();
-			case EnterprisePackage.VIEWPOINT__REPRESENTATIONS:
-				return getRepresentations();
+			case EnterprisePackage.VIEWPOINT__DOMAIN_KINDS:
+				return getDomainKinds();
+			case EnterprisePackage.VIEWPOINT__REPRESENTATION_KINDS:
+				return getRepresentationKinds();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -144,13 +144,13 @@ public class ViewpointImpl extends MinimalEObjectImpl.Container implements Viewp
 				getGoverns().clear();
 				getGoverns().addAll((Collection<? extends View>)newValue);
 				return;
-			case EnterprisePackage.VIEWPOINT__DOMAINS:
-				getDomains().clear();
-				getDomains().addAll((Collection<? extends SemanticDomainKind>)newValue);
+			case EnterprisePackage.VIEWPOINT__DOMAIN_KINDS:
+				getDomainKinds().clear();
+				getDomainKinds().addAll((Collection<? extends SemanticDomainKind>)newValue);
 				return;
-			case EnterprisePackage.VIEWPOINT__REPRESENTATIONS:
-				getRepresentations().clear();
-				getRepresentations().addAll((Collection<? extends RepresentationKind>)newValue);
+			case EnterprisePackage.VIEWPOINT__REPRESENTATION_KINDS:
+				getRepresentationKinds().clear();
+				getRepresentationKinds().addAll((Collection<? extends RepresentationKind>)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -170,11 +170,11 @@ public class ViewpointImpl extends MinimalEObjectImpl.Container implements Viewp
 			case EnterprisePackage.VIEWPOINT__GOVERNS:
 				getGoverns().clear();
 				return;
-			case EnterprisePackage.VIEWPOINT__DOMAINS:
-				getDomains().clear();
+			case EnterprisePackage.VIEWPOINT__DOMAIN_KINDS:
+				getDomainKinds().clear();
 				return;
-			case EnterprisePackage.VIEWPOINT__REPRESENTATIONS:
-				getRepresentations().clear();
+			case EnterprisePackage.VIEWPOINT__REPRESENTATION_KINDS:
+				getRepresentationKinds().clear();
 				return;
 		}
 		super.eUnset(featureID);
@@ -192,10 +192,10 @@ public class ViewpointImpl extends MinimalEObjectImpl.Container implements Viewp
 				return !getFrames().isEmpty();
 			case EnterprisePackage.VIEWPOINT__GOVERNS:
 				return !getGoverns().isEmpty();
-			case EnterprisePackage.VIEWPOINT__DOMAINS:
-				return !getDomains().isEmpty();
-			case EnterprisePackage.VIEWPOINT__REPRESENTATIONS:
-				return !getRepresentations().isEmpty();
+			case EnterprisePackage.VIEWPOINT__DOMAIN_KINDS:
+				return !getDomainKinds().isEmpty();
+			case EnterprisePackage.VIEWPOINT__REPRESENTATION_KINDS:
+				return !getRepresentationKinds().isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

@@ -407,22 +407,22 @@ public interface EnterprisePackage extends EPackage {
 	int VIEWPOINT__GOVERNS = 1;
 
 	/**
-	 * The feature id for the '<em><b>Domains</b></em>' reference list.
+	 * The feature id for the '<em><b>Domain Kinds</b></em>' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int VIEWPOINT__DOMAINS = 2;
+	int VIEWPOINT__DOMAIN_KINDS = 2;
 
 	/**
-	 * The feature id for the '<em><b>Representations</b></em>' reference list.
+	 * The feature id for the '<em><b>Representation Kinds</b></em>' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int VIEWPOINT__REPRESENTATIONS = 3;
+	int VIEWPOINT__REPRESENTATION_KINDS = 3;
 
 	/**
 	 * The number of structural features of the '<em>Viewpoint</em>' class.
@@ -954,26 +954,26 @@ public interface EnterprisePackage extends EPackage {
 	EReference getViewpoint_Governs();
 
 	/**
-	 * Returns the meta object for the reference list '{@link org.nasdanika.models.enterprise.Viewpoint#getDomains <em>Domains</em>}'.
+	 * Returns the meta object for the reference list '{@link org.nasdanika.models.enterprise.Viewpoint#getDomainKinds <em>Domain Kinds</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Domains</em>'.
-	 * @see org.nasdanika.models.enterprise.Viewpoint#getDomains()
+	 * @return the meta object for the reference list '<em>Domain Kinds</em>'.
+	 * @see org.nasdanika.models.enterprise.Viewpoint#getDomainKinds()
 	 * @see #getViewpoint()
 	 * @generated
 	 */
-	EReference getViewpoint_Domains();
+	EReference getViewpoint_DomainKinds();
 
 	/**
-	 * Returns the meta object for the reference list '{@link org.nasdanika.models.enterprise.Viewpoint#getRepresentations <em>Representations</em>}'.
+	 * Returns the meta object for the reference list '{@link org.nasdanika.models.enterprise.Viewpoint#getRepresentationKinds <em>Representation Kinds</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Representations</em>'.
-	 * @see org.nasdanika.models.enterprise.Viewpoint#getRepresentations()
+	 * @return the meta object for the reference list '<em>Representation Kinds</em>'.
+	 * @see org.nasdanika.models.enterprise.Viewpoint#getRepresentationKinds()
 	 * @see #getViewpoint()
 	 * @generated
 	 */
-	EReference getViewpoint_Representations();
+	EReference getViewpoint_RepresentationKinds();
 
 	/**
 	 * Returns the meta object for class '{@link org.nasdanika.models.enterprise.View <em>View</em>}'.
@@ -1351,20 +1351,20 @@ public interface EnterprisePackage extends EPackage {
 		EReference VIEWPOINT__GOVERNS = eINSTANCE.getViewpoint_Governs();
 
 		/**
-		 * The meta object literal for the '<em><b>Domains</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Domain Kinds</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference VIEWPOINT__DOMAINS = eINSTANCE.getViewpoint_Domains();
+		EReference VIEWPOINT__DOMAIN_KINDS = eINSTANCE.getViewpoint_DomainKinds();
 
 		/**
-		 * The meta object literal for the '<em><b>Representations</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Representation Kinds</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference VIEWPOINT__REPRESENTATIONS = eINSTANCE.getViewpoint_Representations();
+		EReference VIEWPOINT__REPRESENTATION_KINDS = eINSTANCE.getViewpoint_RepresentationKinds();
 
 		/**
 		 * The meta object literal for the '{@link org.nasdanika.models.enterprise.impl.ViewImpl <em>View</em>}' class.

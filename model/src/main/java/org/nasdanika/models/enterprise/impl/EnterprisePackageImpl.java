@@ -432,7 +432,7 @@ public class EnterprisePackageImpl extends EPackageImpl implements EnterprisePac
 	 * @generated
 	 */
 	@Override
-	public EReference getViewpoint_Domains() {
+	public EReference getViewpoint_DomainKinds() {
 		return (EReference)viewpointEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -442,7 +442,7 @@ public class EnterprisePackageImpl extends EPackageImpl implements EnterprisePac
 	 * @generated
 	 */
 	@Override
-	public EReference getViewpoint_Representations() {
+	public EReference getViewpoint_RepresentationKinds() {
 		return (EReference)viewpointEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -655,8 +655,8 @@ public class EnterprisePackageImpl extends EPackageImpl implements EnterprisePac
 		viewpointEClass = createEClass(VIEWPOINT);
 		createEReference(viewpointEClass, VIEWPOINT__FRAMES);
 		createEReference(viewpointEClass, VIEWPOINT__GOVERNS);
-		createEReference(viewpointEClass, VIEWPOINT__DOMAINS);
-		createEReference(viewpointEClass, VIEWPOINT__REPRESENTATIONS);
+		createEReference(viewpointEClass, VIEWPOINT__DOMAIN_KINDS);
+		createEReference(viewpointEClass, VIEWPOINT__REPRESENTATION_KINDS);
 
 		viewEClass = createEClass(VIEW);
 		createEReference(viewEClass, VIEW__REPRESENTATIONS);
@@ -742,8 +742,8 @@ public class EnterprisePackageImpl extends EPackageImpl implements EnterprisePac
 		initEClass(viewpointEClass, Viewpoint.class, "Viewpoint", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getViewpoint_Frames(), this.getConcern(), null, "frames", null, 1, -1, Viewpoint.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getViewpoint_Governs(), this.getView(), null, "governs", null, 0, -1, Viewpoint.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getViewpoint_Domains(), this.getSemanticDomainKind(), null, "domains", null, 1, -1, Viewpoint.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getViewpoint_Representations(), this.getRepresentationKind(), null, "representations", null, 1, -1, Viewpoint.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getViewpoint_DomainKinds(), this.getSemanticDomainKind(), null, "domainKinds", null, 1, -1, Viewpoint.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getViewpoint_RepresentationKinds(), this.getRepresentationKind(), null, "representationKinds", null, 1, -1, Viewpoint.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(viewEClass, View.class, "View", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getView_Representations(), this.getRepresentation(), null, "representations", null, 1, -1, View.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

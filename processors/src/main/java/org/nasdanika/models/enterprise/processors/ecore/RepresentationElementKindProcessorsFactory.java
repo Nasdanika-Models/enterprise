@@ -27,7 +27,7 @@ public class RepresentationElementKindProcessorsFactory {
 
 	@EClassifierNodeProcessorFactory(
 			label = "Representation Element Kind",
-			description = "A kind (type/class) of representation element",
+			description = "A kind (type/class) of representation elements",
 			documentation = 
                     """
 					A specification of the conventions for a particular representation element.
