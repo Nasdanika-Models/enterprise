@@ -24,9 +24,14 @@ public class ConcernProcessorsFactory {
 	}
 
 	@EClassifierNodeProcessorFactory(
-			description = "A concern is a matter of interest or importance to a stakeholder.",
+			description = "A matter of interest or importance to a stakeholder",
 			documentation = 
                     """
+					A concern is a matter of interest or importance to a stakeholder.
+					
+					When a guy goes fishing his concerns are to buy bait, fuel the boat, find a good spot and catch fish.
+					Fishing inspector's concerns are that the guy has a vailid fishing license and catches fish in accordance with the fishing regulations.
+					And the wife's concerns are how much and what kind of fish the guy catches.
                     """
 	)
 	public EClassNodeProcessor createConcernProcessor(

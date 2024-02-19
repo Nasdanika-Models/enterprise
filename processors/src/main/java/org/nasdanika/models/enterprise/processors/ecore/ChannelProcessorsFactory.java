@@ -98,7 +98,7 @@ public class ChannelProcessorsFactory {
 					In the above example, an automated AI assistant may:
 					
 					* Create an issue to merge generated code
-					* Attach source to the issue instead of creating a branch and a merge/pull request
+					* Attach generated source code to the issue instead of creating a branch and a merge/pull request
 					* Or establish a link between the issue and the branch or merge/pull request
 					* Asssign the issue to the same developer
 					* Add the issue to the backlog or to the next/current sprint
@@ -122,7 +122,7 @@ public class ChannelProcessorsFactory {
 					
                     """
 	)
-	public EClassNodeProcessor createEnterpriseProcessor(
+	public EClassNodeProcessor createChannelProcessor(
 			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
 			java.util.function.Function<ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,

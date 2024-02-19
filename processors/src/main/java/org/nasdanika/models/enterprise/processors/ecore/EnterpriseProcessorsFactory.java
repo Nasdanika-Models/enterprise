@@ -37,7 +37,7 @@ public class EnterpriseProcessorsFactory {
 					
 					Note that an enterprise may have a single stakeholder. 
 					Going fishing alone or with friends is an enterprise.
-					Writing this book is also an enterprise.
+					Writing a book is also an enterprise.
 					
 					An enterprise operates on one or more semantic domains. 
 					For example, the book domain - author, reader, publisher, book, chapter, ...
