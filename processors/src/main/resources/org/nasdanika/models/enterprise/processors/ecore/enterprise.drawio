@@ -1,1 +1,222 @@
-<mxfile host="Electron" modified="2024-02-17T14:17:03.037Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.7.4 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36" etag="mxjwHpCq0GZU6bS8vqet" version="20.7.4" type="device"><diagram id="9LyRcf5E83sRww5AyW56" name="Page-1">5VzRcqM2FP0av3QmGZDAdh43sbOdaXems+nsbh8VkI0aQIxQ1na/viIIMJLjaB0byU5eYq4FQuceHd17pWQE77L1Z4aK5AuNcToCXrwewdkIiJ9pIH5Vlk1tmTaGJSNxbfI7wwP5D0ujJ63PJMZlryGnNOWk6Bsjmuc44j0bYoyu+s0WNO33WqAl1gwPEUp163cS80SOIvQ6+++YLJOmZ9+T32SoaSwNZYJiutoywfkI3jFKef0pW9/htAKvwaW+7/6Vb9sXYzjnJjeUEHi393Axm+XRt6/fKc2XV1fyKT9R+iwHfJcggWQq35lvGiAYfc5jXD3LH8HbVUI4fihQVH27Eq4XtoRnqfxaf7emI8w4Xm+Z5Lt+xjTDnG1EE/ntVYukZE4wkderzg9+A26y5YPGN0i6ftk+u0NHfJAA/QJYQEdrwVAm6KmChWNBInlJGU/okuYonXfW2w5OT1x1bf6ktJAg/os538gZgZ45NYS4pM8swvt8PpbzCLEl5vvGW7erBrPXYwyniJOf/RlzfPR1qtI8wiy3TtVJn6hgbJuo/sQGI0tBKP6p0lxhiAnKaB435nuSvp+40JC3fuAUcWGgMZcWmCFeCYdHdf46rR6mTrhxyweaC+Y5x6xgpMTW9ePKV1Y62/rRdLYFl4jrhJOYQEWYCTovzgamwuEWZyeaF0ilGKgayqbAlXgsRmCMsoqS+WNZtCAN6xicx43sP6Y0eqpNUvK9YTwXGrpOTjnvOoTjaX2PsTdfniZGijZbDQpKcl5udfZXZeh6CpTgYBpuE+Ot5kHg7W0Owd724kP9vsrdzcvTxaIUuKpMbfE6nLz6mvcFl2WVbDmgtq7Fa2DsSrz2d0Lyo8ZsoeEEHjslvaHG3q+4YLgUwxe97wjZhiYxmLqWHMOphhlrMLOSIG+tSlGKypJEvXXpfbQ2TaF90xy6XZeEpsND1qUhxX385vTw5inOKlRdmyjh1PZEAbq4LKkYUH5mZaTJWSo7vLk4LTJ1hA+P7YmDAmIf9mfkONwf4k68ve37Ie6xFE5PvV5XOO8PksfWhW7inM5BGzPt5EXIqeFsmzgle0DPx85y0TFF37QcMAz6emisqYmLGmI/qQBWVuuTa8iN6Yptmj0MQ+MbjcYPOEM5F9EM8GY0Q8R+YhyECodtUxjqWw8xLiNGHs9u39gzpO3Rt34OijOhomaN21+tvE73tj9NnAlDVwTulcqfYAnb/Ki6up6EzfU/suuXi9m6d7UZvbfmb8wz46L/sERrSg6v1uz3tz8N0RpQ94u3N3uRpsKJGif0wv6EDK1ruaeB4rZiNyfmhi8NvA9noJH1LLMVY/zdOizRvPYbWuFEyjJWN0xta4Svc3cLPFfK4mqY7IC26qQ7zzlvfErNreTO1/OUXbx1c9bbp6+v13gSdG7UNT1t4xhz9boEXkcJypdnl2GbOsCtA66+Xlx+4OgJJzSNMbMuFurxSvtiAZw5n3308z6+6YEftyr0UD/SgGKGy9KOhOA14XXRBYTysq25iM9dyaW6OELFxdRppsLfnmaB/o18iUNPszTFAGXXGAbK5KwHKe/q2PDLxRxfLc6ECrksHaj09WMj3wheWVdX9YANtL9pBC5XXU3PnU2dUlegB8fnmdsZH/tza3Xz9dWt0o6iFUuHNp3t60egl8r96+vfNKDE+LiqAYw+4TuaUiYsOc0rvi7ExFdMKCVLIQyzFC+qJ1RYkQiln6Q5I3H8QvVd4PfpfwT8Q9DDvz2etYV/sAN+cDL49ULQieBn9Wgs4x8o2xw7KpjD4g8+FP3hpA8/3JEdDou/Xoi7ZPx9pZTXBuDW8NerGReNv5pYWee/nuhcNP7qBpZ1/PVg8SPhH+74a8Bh8dfPnl8s+KHy56vAsw2+nql+GPDtR/76Rs4lKw8MlMDftvI3/X9Q/E+o/OKy+0dfdUW4+3dpcP4/</diagram></mxfile>
+<mxfile host="Electron" modified="2024-02-20T09:55:51.618Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="HxVawag-elWHMrs76kHZ" version="23.0.2" type="device">
+  <diagram id="9LyRcf5E83sRww5AyW56" name="Page-1">
+    <mxGraphModel dx="1805" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Channel" link="references/eClassifiers/Channel/index.html" tooltip="Something that passes messages between&#xa;stakeholders" id="s320BF3fDDncVRWoong--1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="-100" y="470" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--21" value="frames" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--16" target="s320BF3fDDncVRWoong--2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Concern" link="references/eClassifiers/Concern/index.html" tooltip="A matter of interest or importance to a&#xa;stakeholder" id="s320BF3fDDncVRWoong--2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="70" y="260" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;" parent="1" source="s320BF3fDDncVRWoong--3" target="s320BF3fDDncVRWoong--14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--34" value="operates on" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--3" target="s320BF3fDDncVRWoong--9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Enterprise" link="references/eClassifiers/Enterprise/index.html" tooltip="A group of parties (stakeholders) and&#xa;resources devoted to achieving a&#xa;mission" id="s320BF3fDDncVRWoong--3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="-10" y="40" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--20" value="delivered via" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--4" target="s320BF3fDDncVRWoong--1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--37" value="is a type of&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="s320BF3fDDncVRWoong--4" target="s320BF3fDDncVRWoong--15" edge="1">
+          <mxGeometry x="0.5368" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="285" />
+              <mxPoint x="40" y="440" />
+              <mxPoint x="320" y="440" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Message" link="references/eClassifiers/Message/index.html" tooltip="A type of view which is delivered via a&#xa;channel" id="s320BF3fDDncVRWoong--4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="-100" y="260" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;" parent="1" source="s320BF3fDDncVRWoong--5" target="s320BF3fDDncVRWoong--6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Representation" link="references/eClassifiers/Representation/index.html" tooltip="A group of related representation elements" id="s320BF3fDDncVRWoong--5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="280" y="470" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--38" value="represents" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="s320BF3fDDncVRWoong--6" target="s320BF3fDDncVRWoong--12" edge="1">
+          <mxGeometry x="0.2233" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Representation Element" link="references/eClassifiers/RepresentationElement/index.html" tooltip="An element (part) of a representation" id="s320BF3fDDncVRWoong--6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="280" y="580" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--25" value="governs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--7" target="s320BF3fDDncVRWoong--6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="s320BF3fDDncVRWoong--7" target="s320BF3fDDncVRWoong--13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="650" />
+              <mxPoint x="700" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Representation Element Kind" link="references/eClassifiers/RepresentationElementKind/index.html" tooltip="A kind (type/class) of representation&#xa;elements" id="s320BF3fDDncVRWoong--7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="70" y="580" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;" parent="1" source="s320BF3fDDncVRWoong--8" target="s320BF3fDDncVRWoong--7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--24" value="governs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--8" target="s320BF3fDDncVRWoong--5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Representation Kind" link="references/eClassifiers/RepresentationKind/index.html" tooltip="A specification of the conventions for&#xa;a particular kind/type/class of&#xa;representation" id="s320BF3fDDncVRWoong--8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="70" y="470" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;" parent="1" source="s320BF3fDDncVRWoong--9" target="s320BF3fDDncVRWoong--12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Semantic Domain" link="references/eClassifiers/SemanticDomain/index.html" tooltip="An area of meaning and the words used&#xa;to talk about it" id="s320BF3fDDncVRWoong--9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="450" y="40" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--33" value="describes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--10" target="s320BF3fDDncVRWoong--9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="120" />
+              <mxPoint x="480" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="s320BF3fDDncVRWoong--10" target="s320BF3fDDncVRWoong--15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="280" />
+              <mxPoint x="370" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Semantic Domain Description" link="references/eClassifiers/SemanticDomainDescription/index.html" tooltip="A collection of views into a set of&#xa;semantic domains, on which the&#xa;enterprise operates, addressing a set&#xa;of stakeholder concerns" id="s320BF3fDDncVRWoong--10">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="305" y="150" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--11" target="s320BF3fDDncVRWoong--13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--32" value="governs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--11" target="s320BF3fDDncVRWoong--9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Semantic Domain Kind" link="references/eClassifiers/SemanticDomainKind/index.html" tooltip="A metamodel of a semantic domain" id="s320BF3fDDncVRWoong--11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="640" y="40" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Semantic Element" link="references/eClassifiers/SemanticElement/index.html" tooltip="An element of a semantic domain" id="s320BF3fDDncVRWoong--12">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="450" y="150" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--31" value="governs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--13" target="s320BF3fDDncVRWoong--12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Semantic Element Kind" link="references/eClassifiers/SemanticElementKind/index.html" tooltip="A kind (type/class) of semantic&#xa;elements" id="s320BF3fDDncVRWoong--13">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="640" y="150" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--18" value="has" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--14" target="s320BF3fDDncVRWoong--2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--19" value="exchanges" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--14" target="s320BF3fDDncVRWoong--4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Stakeholder" link="references/eClassifiers/Stakeholder/index.html" tooltip="An entity having interest in the&#xa;Enterprise" id="s320BF3fDDncVRWoong--14">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="-10" y="150" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;" parent="1" source="s320BF3fDDncVRWoong--15" target="s320BF3fDDncVRWoong--5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--36" value="adresses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="s320BF3fDDncVRWoong--15" target="s320BF3fDDncVRWoong--2" edge="1">
+          <mxGeometry x="0.3191" relative="1" as="geometry">
+            <mxPoint x="330" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="310" y="285" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="View" link="references/eClassifiers/View/index.html" tooltip="A group of related representations of&#xa;semantic domain elements of interest&#xa;from the perspective of a related set&#xa;of concerns" id="s320BF3fDDncVRWoong--15">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="280" y="370" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;" parent="1" source="s320BF3fDDncVRWoong--16" target="s320BF3fDDncVRWoong--8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--28" value="governs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s320BF3fDDncVRWoong--16" target="s320BF3fDDncVRWoong--15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Viewpoint" link="references/eClassifiers/Viewpoint/index.html" tooltip="A specification of the conventions for&#xa;a particular view kind/type" id="s320BF3fDDncVRWoong--16">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="70" y="370" width="120" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s320BF3fDDncVRWoong--40" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="52" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--41" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="405" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--42" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="375" y="350" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--43" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--44" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="350" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--45" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--46" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--47" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="200" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--48" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--49" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="345" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s320BF3fDDncVRWoong--50" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="345" y="560" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

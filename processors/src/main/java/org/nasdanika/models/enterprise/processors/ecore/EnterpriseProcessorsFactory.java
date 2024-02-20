@@ -26,7 +26,7 @@ public class EnterpriseProcessorsFactory {
 	}
 
 	@EClassifierNodeProcessorFactory(
-			description = "Enterrise is a group of parties and resources devoted to achieving a mission",
+			description = "A group of parties (stakeholders) and resources devoted to achieving a mission",
 			documentation = 
                     """
 					One definition of an enterprise is "A group of people and resources devoted to achieving a mission."[^ea-by-example]
