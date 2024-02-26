@@ -14,7 +14,7 @@ import org.nasdanika.models.ecore.graph.processors.EPackageNodeProcessorFactory;
 import org.nasdanika.models.enterprise.EnterprisePackage;
 
 @EPackageNodeProcessorFactory(nsURI = EnterprisePackage.eNS_URI)
-public class EcoreGenEnterpriseProcessorsFactory {
+public class EnterpriseEcoreGenProcessorsFactory {
 
 	private Context context;
 	
@@ -66,7 +66,7 @@ public class EcoreGenEnterpriseProcessorsFactory {
 	@Factory
 	public final ViewpointProcessorsFactory viewpointProcessorsFactory;		
 	
-	public EcoreGenEnterpriseProcessorsFactory(Context context) {
+	public EnterpriseEcoreGenProcessorsFactory(Context context) {
 		this.context = context;
 		channelProcessorsFactory = new ChannelProcessorsFactory(context);
 		concernProcessorsFactory = new ConcernProcessorsFactory(context);
