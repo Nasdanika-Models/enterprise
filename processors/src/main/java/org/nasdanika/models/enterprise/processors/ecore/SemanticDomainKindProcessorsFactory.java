@@ -41,7 +41,7 @@ public class SemanticDomainKindProcessorsFactory {
 					* Semantic Domain - the model, instances of classes/kinds. For example [Beyond Diagrams](https://leanpub.com/beyond-diagrams)
 					book contains "Terminology (Semantic Domain)" chapter. 
 					An enterprise operates on one or more semantic domains. E.g. an author writes one or more books.
-					[Sample Family](https://family.models.nasdanika.org/demos/mapping/index.html) is a semantic domain of ``Family`` semantic domain kind.
+					[Sample Family](https://nasdanika-demos.github.io/family-semantic-mapping/index.html) is a semantic domain of ``Family`` semantic domain kind.
 					
 					"Kind" is one of the terms which cause confusion. A synonym for Kind is "Type", or "Class" in languages like Java,
 					or (maybe), "Prototype" in languages like JavaScript.

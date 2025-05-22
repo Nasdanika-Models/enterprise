@@ -40,7 +40,7 @@ public class ViewProcessorsFactory {
 					addressing stakeholder's concern of getting familiar with the system/solution.
 					Diagrams and descriptions are representations.
 					
-					Another example is the [Sample Family home page](https://family.models.nasdanika.org/demos/mapping/index.html) view
+					Another example is the [Sample Family home page](https://nasdanika-demos.github.io/family-semantic-mapping/index.html) view
 					with a family diagram representation addressing the "What" concern
 					and several other representations addressing the "How" concern
 					of a "potential user" stakeholder.  					

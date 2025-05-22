@@ -37,7 +37,7 @@ public class SemanticElementKindProcessorsFactory {
 					
 					For example, in the [Family](https://family.models.nasdanika.org/) [semantic domain kind](../SemanticDomainKind/index.html)
 					[Man](https://family.models.nasdanika.org/references/eClassifiers/Man/index.html) is a semantic element kind,
-					and [Paul](https://family.models.nasdanika.org/demos/mapping/references/members/paul/index.html) is a semantic element
+					and [Paul](https://nasdanika-demos.github.io/family-semantic-mapping/references/members/paul/index.html) is a semantic element
 					of the ``Man`` kind.  
                     """
 	)

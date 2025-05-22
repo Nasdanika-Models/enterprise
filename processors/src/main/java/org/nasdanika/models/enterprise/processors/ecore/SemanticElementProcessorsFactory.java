@@ -33,8 +33,8 @@ public class SemanticElementProcessorsFactory {
 					An element of a [semantic domain](../SemanticDomain/index.html) of a specific
 					[semantic element kind](../SemanticElementKind/index.html).
 					
-					For example, [Paul](https://family.models.nasdanika.org/demos/mapping/references/members/paul/index.html) 
-					is an element of the [sample family](https://family.models.nasdanika.org/demos/mapping/index.html) semantic domain
+					For example, [Paul](https://nasdanika-demos.github.io/family-semantic-mapping/references/members/paul/index.html) 
+					is an element of the [sample family](https://nasdanika-demos.github.io/family-semantic-mapping/index.html) semantic domain
 					of the [Man](https://family.models.nasdanika.org/references/eClassifiers/Man/index.html) kind
 					represented by an image [representation element](../RepresentationElement/index.html)
 					on the family diagram [representation](../Representation/index.html).  					

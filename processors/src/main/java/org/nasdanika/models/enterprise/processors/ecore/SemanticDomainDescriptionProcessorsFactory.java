@@ -34,7 +34,7 @@ public class SemanticDomainDescriptionProcessorsFactory {
 					[semantic domains](../SemanticDomain/index.html), on which the [enterprise](../Enterprise/index.html) operates,
 					addressing a set of [stakeholder](../Stakeholder/index.html) [concerns](../Concern/index.html). 	
 					
-					[Sample Family](https://family.models.nasdanika.org/demos/mapping/index.html) is an example of a
+					[Sample Family](https://nasdanika-demos.github.io/family-semantic-mapping/index.html) is an example of a
 					semantic domain description which describes the eponymous semantic domain of [Family](https://family.models.nasdanika.org/index.html)
 					semantic domain kind.								
                     """
