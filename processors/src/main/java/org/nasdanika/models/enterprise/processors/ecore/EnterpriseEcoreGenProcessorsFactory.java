@@ -101,7 +101,7 @@ public class EnterpriseEcoreGenProcessorsFactory {
 				
 				* Establish a shared terminology and drive understanding of enterprise information pathways
 				* Document a particular enterprise - mission, stakeholders, concerns, ...
-				* Continously adjust the enterprise to improve its efficiency by identifying and refining views, messages, channels and other elements
+				* Continuously adjust the enterprise to improve its efficiency by identifying and refining views, messages, channels and other elements
 				
 				One way to think about improvement of efficiency is minimization of the "loss function" - total amount of effort required to 
 				successfully pass messages between stakeholders.
