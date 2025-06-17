@@ -21,13 +21,12 @@ import org.nasdanika.common.ExecutionException;
 import org.nasdanika.common.MutableContext;
 import org.nasdanika.common.NullProgressMonitor;
 import org.nasdanika.common.ProgressMonitor;
-import org.nasdanika.html.bootstrap.Theme;
 import org.nasdanika.models.app.Action;
 import org.nasdanika.models.app.gen.AppSiteGenerator;
 import org.nasdanika.models.ecore.graph.processors.EcoreHtmlAppGenerator;
 import org.nasdanika.models.ecore.graph.processors.EcoreNodeProcessorFactory;
-import org.nasdanika.models.enterprise.processors.ecore.EnterpriseEcoreGenProcessorsFactory;
 import org.nasdanika.models.enterprise.EnterprisePackage;
+import org.nasdanika.models.enterprise.processors.ecore.EnterpriseEcoreGenProcessorsFactory;
 import org.nasdanika.ncore.NcorePackage;
 
 /**
@@ -84,11 +83,14 @@ public class TestEnterpriseModelDocGen {
 				return !"CNAME".equals(path) && !path.startsWith("demos/");			
 			};
 			
-		};		
+		};	
+				
+		String pageTemplateResource = "page-template.yml";
+		URI pageTemplateURI = URI.createFileURI(new File(pageTemplateResource).getAbsolutePath());//.appendFragment("/");		
 		
 		Map<String, Collection<String>> errors = actionSiteGenerator.generate(
 				rootActionURI, 
-				Theme.Cerulean.pageTemplateCdnURI, 
+				pageTemplateURI, 
 				siteMapDomain, 
 				new File("../docs"), 
 				new File("target/doc-site-work-dir"), 
