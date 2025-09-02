@@ -1,279 +1,279 @@
 {
   "references/eClassifiers/RepresentationElementKind/index.html": {
-    "link-uuid": "bd47b364-8a88-4b1e-b528-5d0f4030fab6",
+    "link-uuid": "4254a748-7a81-49f8-b14a-dbe0890b1a04",
     "title": "Representation Element Kind",
     "content": "A specification of the conventions for a particular representation element. Representation elements are instances of representation element kinds. For example, a cylinder is a representation kind for storage/database components, the Data Sources and Store on the RAG component diagram are representation elements of the &ldquo;Storage/Database&rdquo; kind. Different colors of &ldquo;Data Sources&rdquo; representation may highlight heterogeneity of the data sources - plain text, PDF, HTML. And monochromaticity of the &ldquo;Store&rdquo; representation element indicates homogeneity of the &ldquo;Store&rdquo; semantic element.",
-    "timestamp": 1750046852327
+    "timestamp": 1750178192495
   },
   "references/eClassifiers/SemanticDomainDescription/index.html": {
-    "link-uuid": "10dd4c04-77a7-4134-ba4d-a83d7910f508",
+    "link-uuid": "9eb3c691-a5dc-4560-83cd-14d4b10dcb52",
     "title": "Semantic Domain Description",
     "content": "Semantic Domain Description is a collection of views into a set of semantic domains, on which the enterprise operates, addressing a set of stakeholder concerns. Sample Family is an example of a semantic domain description which describes the eponymous semantic domain of Family semantic domain kind.",
-    "timestamp": 1750046852371
+    "timestamp": 1750178192614
   },
   "references/eClassifiers/RepresentationElement/references/eStructuralFeatures/represents/index.html": {
     "path": "Representation Element/References/represents",
-    "link-uuid": "064f8247-4ff2-4810-9c9c-c614768740d1",
+    "link-uuid": "b01ac017-e5a8-48b0-ac50-e57630475129",
     "title": "represents",
     "content": "Type Semantic Element Multiplicity 0..*",
-    "timestamp": 1750046852318
+    "timestamp": 1750178192469
   },
   "references/eClassifiers/Enterprise/references/eStructuralFeatures/stakeholders/index.html": {
     "path": "Enterprise/References/Stakeholders",
-    "link-uuid": "cf4c9325-4f5f-4b4b-a9d4-9ca98c3d1966",
+    "link-uuid": "5633a1a7-efd3-447e-81e2-b4d4fcc35e0a",
     "title": "Stakeholders",
     "content": "Type Stakeholder Multiplicity 1..* An enterprise has one ore more stakeholders. Some stakehodlers may participate in the operations of the enterprise to achieve its mission. Some others may have an interest, but not participate in achieving the mission. They may even be interested in the enterprise not achieving its mission!",
-    "timestamp": 1750046852277
+    "timestamp": 1750178192361
   },
   "references/eClassifiers/SemanticDomain/references/eStructuralFeatures/elements/index.html": {
     "path": "Semantic Domain/References/elements",
-    "link-uuid": "7af15d02-8125-4132-8d79-b642a453e245",
+    "link-uuid": "abfeb635-21e6-40d7-a997-1b45409c4d19",
     "title": "elements",
     "content": "Type Semantic Element Multiplicity 1..*",
-    "timestamp": 1750046852359
+    "timestamp": 1750178192585
   },
   "references/eClassifiers/SemanticElementKind/references/eStructuralFeatures/governs/index.html": {
     "path": "Semantic Element Kind/References/governs",
-    "link-uuid": "41f07cad-76b5-4eb2-ba25-bbae9a9d45c9",
+    "link-uuid": "13e22ee6-0068-4681-94ca-83c3982a4b7f",
     "title": "governs",
     "content": "Type Semantic Element Multiplicity 0..*",
-    "timestamp": 1750046852416
+    "timestamp": 1750178192766
   },
   "references/eClassifiers/Viewpoint/references/eStructuralFeatures/domainKinds/index.html": {
     "path": "Viewpoint/References/Domain kinds",
-    "link-uuid": "29cf8bfb-3482-4a29-a1d8-24482bb4fa9e",
+    "link-uuid": "5a0d7c5c-f780-4728-9ee2-2c163fb87d7d",
     "title": "Domain kinds",
     "content": "Type Semantic Domain Kind Multiplicity 1..*",
-    "timestamp": 1750046852460
+    "timestamp": 1750178192880
   },
   "references/eClassifiers/Enterprise/index.html": {
-    "link-uuid": "87530578-e4fd-4961-9f8a-deadfa645012",
+    "link-uuid": "2474fc7e-1f72-4db9-99fc-88ca660cfb58",
     "title": "Enterprise",
-    "content": "One definition of an enterprise is &ldquo;A group of people and resources devoted to achieving a mission.&rdquo;1 We will use the term &ldquo;stakeholder&rdquo; instead of &ldquo;people&rdquo;. A stakeholder can be a person, an organization/another enterprise, or an automated agent, including AI agents. Note that an enterprise may have a single stakeholder. Going fishing alone or with friends is an enterprise. Writing a book is also an enterprise. An enterprise operates on one or more semantic domains. For example, the book domain - author, reader, publisher, book, chapter, &hellip; Enterprises can be nested and interrelated. A classic example is a company with departments depending on each other. This model does not reflect this aspect for brevity. Enterprise Architecture by Example ↩",
-    "timestamp": 1750046852272
+    "content": "One definition of an enterprise is &ldquo;A group of people and resources devoted to achieving a mission.&rdquo;1 We will use the term &ldquo;stakeholder&rdquo; instead of &ldquo;people&rdquo;. A stakeholder can be a person, an organization/another enterprise, or an automated agent, including AI agents. Note that an enterprise may have a single stakeholder. Going fishing alone or with friends is an enterprise. Writing a book is also an enterprise. An enterprise operates on one or more semantic domains. For example, the book domain - author, reader, publisher, book, chapter, &hellip; Enterprises can be nested and interrelated. A classic example is a company with departments depending on each other. This model does not reflect this aspect for brevity. Enterprise Architecture by Example ?",
+    "timestamp": 1750178192345
   },
   "references/eClassifiers/RepresentationKind/references/eStructuralFeatures/elements/index.html": {
     "path": "Representation Kind/References/elements",
-    "link-uuid": "3d1a9291-29e1-47aa-83a7-f7e97f7e47eb",
+    "link-uuid": "81a48bfc-0a53-4c2c-b365-43a31ab0cba6",
     "title": "elements",
     "content": "Type Representation Element Kind Multiplicity 1..*",
-    "timestamp": 1750046852346
+    "timestamp": 1750178192543
   },
   "references/eClassifiers/SemanticElement/references/eStructuralFeatures/representedBy/index.html": {
     "path": "Semantic Element/References/Represented by",
-    "link-uuid": "6e6b43b6-ff7f-40a8-9255-50ec78db1714",
+    "link-uuid": "6eeb8f64-d5af-4f76-b891-c8f3aa51bf20",
     "title": "Represented by",
     "content": "Type Representation Element Multiplicity 0..*",
-    "timestamp": 1750046852403
+    "timestamp": 1750178192726
   },
   "index.html": {
-    "link-uuid": "a6c2b56f-09d0-4f5e-9023-873f55b9b7ee",
+    "link-uuid": "658f51c6-66b9-4b88-9d65-ec825f70965d",
     "title": "Enterprise Model",
     "content": "A model of an enterprise and its relationship to semantic domains it operates on. This model can be used to: Establish a shared terminology and drive understanding of enterprise information pathways Document a particular enterprise - mission, stakeholders, concerns, &hellip; Continuously adjust the enterprise to improve its efficiency by identifying and refining views, messages, channels and other elements One way to think about improvement of efficiency is minimization of the &ldquo;loss function&rdquo; - total amount of effort required to successfully pass messages between stakeholders. I.e. the receiving stakholder(s) fully understand the intent of the sender stakholder(s). This function is highly dependent on the structure of the enterprise. For example, a co-located team of senior developers might need just a whiteboard. At the same time an open source project with multiple contributors and consumers/users from around the globe wouldn&rsquo;t be able to function with just a whiteboard. Channel Something that passes messages between stakeholders frames Concern A matter of interest or importance to a stakeholder operates on Enterprise A group of parties (stakeholders) and resources devoted to achieving a mission delivered via is a type of Message A type of view which is delivered via a channel Representation A group of related representation elements represents Representation Element An element (part) of a representation governs Representation Element Kind A kind (type/class) of representation elements governs Representation Kind A specification of the conventions for a particular kind/type/class of representation Semantic Domain An area of meaning and the words used to talk about it describes Semantic Domain Description A collection of views into a set of semantic domains, on which the enterprise operates, addressing a set of stakeholder concerns governs Semantic Domain Kind A metamodel of a semantic domain Semantic Element An element of a semantic domain governs Semantic Element Kind A kind (type/class) of semantic elements has exchanges Stakeholder An entity having interest in the Enterprise adresses View A group of related representations of semantic domain elements of interest from the perspective of a related set of concerns governs Viewpoint A specification of the conventions for a particular view kind/type 1..* 1..* 1..* 1..* 1..* 1..* 1..* * * 1..* 1..* Page-1",
-    "timestamp": 1750046852243
+    "timestamp": 1750178192269
   },
   "references/eClassifiers/SemanticDomainKind/index.html": {
-    "link-uuid": "849c4500-636c-4085-9e00-09c830d7d188",
+    "link-uuid": "b4f51d78-fc8c-49d2-8455-95977a771e83",
     "title": "Semantic Domain Kind",
-    "content": "Simply put, &ldquo;Semantic Domain&rdquo; &asymp; terminology, jargon, lingo. More precisely, &ldquo;an area of meaning and the words used to talk about it &hellip;&rdquo;1 In this model the above definition is divided into: Semantic Domain Kind - the metamodel. For example, Book Class (Kind) contains Chapter Class (Kind). Another example is the Family Model Semantic Domain - the model, instances of classes/kinds. For example Beyond Diagrams book contains &ldquo;Terminology (Semantic Domain)&rdquo; chapter. An enterprise operates on one or more semantic domains. E.g. an author writes one or more books. Sample Family is a semantic domain of Family semantic domain kind. &ldquo;Kind&rdquo; is one of the terms which cause confusion. A synonym for Kind is &ldquo;Type&rdquo;, or &ldquo;Class&rdquo; in languages like Java, or (maybe), &ldquo;Prototype&rdquo; in languages like JavaScript. One way to think about is an empty paper or web form. A form for a person would have fields for &ldquo;First name&rdquo;, &ldquo;Last name&rdquo; and &ldquo;Date of birth&rdquo; with no values. An instance of a kind/type/class/prototype is a filled-out form with, say &ldquo;John&rdquo; for the first name and &ldquo;Smith&rdquo; for the last name. Instantiation is taking an empty form, making a copy of it, and then filling it out. https://en.wikipedia.org/wiki/Semantic_domain ↩",
-    "timestamp": 1750046852387
+    "content": "Simply put, &ldquo;Semantic Domain&rdquo; ? terminology, jargon, lingo. More precisely, &ldquo;an area of meaning and the words used to talk about it &hellip;&rdquo;1 In this model the above definition is divided into: Semantic Domain Kind - the metamodel. For example, Book Class (Kind) contains Chapter Class (Kind). Another example is the Family Model Semantic Domain - the model, instances of classes/kinds. For example Beyond Diagrams book contains &ldquo;Terminology (Semantic Domain)&rdquo; chapter. An enterprise operates on one or more semantic domains. E.g. an author writes one or more books. Sample Family is a semantic domain of Family semantic domain kind. &ldquo;Kind&rdquo; is one of the terms which cause confusion. A synonym for Kind is &ldquo;Type&rdquo;, or &ldquo;Class&rdquo; in languages like Java, or (maybe), &ldquo;Prototype&rdquo; in languages like JavaScript. One way to think about is an empty paper or web form. A form for a person would have fields for &ldquo;First name&rdquo;, &ldquo;Last name&rdquo; and &ldquo;Date of birth&rdquo; with no values. An instance of a kind/type/class/prototype is a filled-out form with, say &ldquo;John&rdquo; for the first name and &ldquo;Smith&rdquo; for the last name. Instantiation is taking an empty form, making a copy of it, and then filling it out. https://en.wikipedia.org/wiki/Semantic_domain ?",
+    "timestamp": 1750178192666
   },
   "references/eClassifiers/Stakeholder/index.html": {
-    "link-uuid": "f8200589-809d-4940-8666-2caa4d8b12d0",
+    "link-uuid": "8fd819ee-3353-46dd-b2a1-6f73b1d40d78",
     "title": "Stakeholder",
     "content": "Stakeholder is some entity having interest in Enterprise achieving (or not achieving) its mission. That entity might be a person, organization, automated agent. Parties participating in the enterprise are stakeholders by definition - they have an interest in achieving the mission. For example, a guy goes fishing. His wife is interested whether he catches anything because it affects what she&rsquo;d need to cook for dinner. And maybe she hopes that he wouldn&rsquo;t catch anything, so she doesn&rsquo;t have to clean the fish and the eat it - she might prefer chicken or beef. Both of them are stakeholders. The guy is a single-stakeholder enterprise - so he is both an enterprise with a mission to catch fish and a participating stakehodler with an interest to catch fish. This enterprise also has resources - fishing rods, bait, boat, &hellip; The wife is a stakeholder as well, although she is not involved into the enterprise operations - buying bait, fueling the boat, catching fish, &hellip; To achieve the enterprise mission stakeholders separate concerns and collaborate by exchanging messages over communication channels. Even a single stakeholder may have multiple concerns and send messages to self over different channels. For example, create a shopping list (message) in a mobile application (channel) and a TODO list (message) in a paper planner (channel).",
-    "timestamp": 1750046852425
+    "timestamp": 1750178192796
   },
   "references/eClassifiers/Message/inheritance.html": {
     "path": "Message/Inheritance",
-    "link-uuid": "815cb0b7-0194-457e-9345-8756902bc25e",
+    "link-uuid": "273cd22c-b2db-4b1f-8a96-25c514674c17",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1750046852290
+    "timestamp": 1750178192391
   },
   "references/eClassifiers/Viewpoint/references/eStructuralFeatures/frames/index.html": {
     "path": "Viewpoint/References/frames",
-    "link-uuid": "9af87ba4-3d41-4211-8056-aa262897a86b",
+    "link-uuid": "d41ed415-39ec-42e1-abc6-337021d00889",
     "title": "frames",
     "content": "Type Concern Multiplicity 1..*",
-    "timestamp": 1750046852462
+    "timestamp": 1750178192885
   },
   "references/eClassifiers/View/inheritance.html": {
     "path": "View/Inheritance",
-    "link-uuid": "1e3434c9-c713-4010-884b-dd99aa6e914f",
+    "link-uuid": "c75ef73b-34a6-49ac-9a0b-cb08f79395ba",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1750046852443
+    "timestamp": 1750178192840
   },
   "references/eClassifiers/SemanticDomainDescription/references/eStructuralFeatures/views/index.html": {
     "path": "Semantic Domain Description/References/views",
-    "link-uuid": "16e85d64-5b54-4e60-a955-665a9c50c3bb",
+    "link-uuid": "5e147dde-6093-40f9-9127-a54974272fd3",
     "title": "views",
     "content": "Type View Multiplicity 1..*",
-    "timestamp": 1750046852375
+    "timestamp": 1750178192626
   },
   "references/eClassifiers/View/index.html": {
-    "link-uuid": "5d20c3fc-fd61-4574-9cd6-cb6b0d4d7d40",
+    "link-uuid": "61740280-5520-4527-a818-26661e25136c",
     "title": "View",
     "content": "View is a group of related representations of semantic domain elements of interest from the perspective of a related set of concerns. A LinkedIn profile is a view which contains &ldquo;Profile photo&rdquo; image representation and &ldquo;Experience&rdquo; list of cards representation. Another example, a web page with a component diagram, a list of component descriptions, and a sequence diagram showing components interaction is a view addressing stakeholder&rsquo;s concern of getting familiar with the system/solution. Diagrams and descriptions are representations. Another example is the Sample Family home page view with a family diagram representation addressing the &ldquo;What&rdquo; concern and several other representations addressing the &ldquo;How&rdquo; concern of a &ldquo;potential user&rdquo; stakeholder.",
-    "timestamp": 1750046852442
+    "timestamp": 1750178192837
   },
   "references/eClassifiers/Channel/index.html": {
-    "link-uuid": "150ac89c-d506-474c-bec4-75bf744379cc",
+    "link-uuid": "c7ac2886-0495-4332-b3d5-8eede92c7fa5",
     "title": "Channel",
     "content": "Channel is something that passes messages between stakeholders. Channels can transform/enrich and aggregate messages. Channels can be: Synchronous or asynchronous. Texting and e-mail are asynchronous. Phone and video are synchronous. Pushing or polling. Calling all your friends and telling them that you caught a fish is pushing. When your friends ask you about your fishing trip is polling. Unidirectional or bidirectional Delivering to a single recipient or multiple recipients For example, a book might be considered as a message addressing potential readers&rsquo; concerns. It is delivered over the publisher channel (LeanPub, Amazon), which is: Asynchronous, Polling, Might be bidirectional if readers can contact the author, Delivers to multiple recipients, Aggregates chapters with each chapter being a message on its own adressing specific readers&rsquo; concerns, Transforms the book to multiple formats (PDF, EPUB, Web). Examples This section contains examples of channels in a software development enterprise consisting of human and automation stakeholders. While it might be argued that an automation stakeholder is a resource, we&rsquo;ll consider it as a stakholder because it can receive messages and act on them including sending other messages. Version control system Version control systems like Git (GitHub, GitLab) can be considered a distributed event store and stream-processing platform similar to Apache Kafka. Commit is an event/message, branches are streams of commits. Both humans and automated agents may receive messages by polling (pull) or pushing (web hooks). Sample scenario: A developer commits a new Java file An automated AI assistant Inspects the new file Generates JUnit test cases and JavaDoc comments Commits them to a new branch Creates a merge/pull request assigning it to the developer who committed the file The developer Reviews proposed generated changes Makes necessary adjustments Merges changes There are two demos of the above scenario - retrieving sources from GitLab, generating a test case using OpenAI, committing generated code and creating a merge request: TestGitLab - all functionality is implemented in a single test method with 80 lines of code leveraging Nasdanika Java Model with Nasdanika GitLab Model&rsquo;s GitLabURIHandler to transparently load and parse Java files, and gitlab4j-api to commit generated sources and create a merge request. TestAnalyzers.testTheoryBuilder() and ReflectiveInspectors.untestedMethodInspector() implement the same functionality using Nasdanika Rules to separate loading, inspection, and commit/merge request concerns. Version control system can be also used to pass &ldquo;messsages&rdquo; - files - to a web browser. Examples: GitHub Pages jsDelivr for GitHub Issue management system An issue tracking system like GitHub issues or Jira may also be considered as a channel with issues being messages. In the above example, an automated AI assistant may: Create an issue to merge generated code Attach generated source code to the issue instead of creating a branch and a merge/pull request Or establish a link between the issue and the branch or merge/pull request Asssign the issue to the same developer Add the issue to the backlog or to the next/current sprint Link the issue to a parent issue (epic/initiative) which tracks progress of addressing technical debt In the above example there are multiple recipients of the message (issue): Developer - responsible, needs to address the issue by merging code Scrum master - accountable, ensures that the merge is performed by the developer Leadership - informed via dashboards or other means about the level of code coverage and amount of effort spent on addressing technical debt. An example of message aggregation. Maven repository A Maven repository can be used to pass generated documentation &ldquo;messaages&rdquo; to development environments such as Eclipse and web browsers using solutions like https://javadoc.io/ as an intermediary channel. P2 repository P2 repositories can be used to deliver integrated documentation &ldquo;messages&rdquo; - bundles/plugins - to Eclipse IDE including Eclipse Help System server.",
-    "timestamp": 1750046852253
+    "timestamp": 1750178192293
   },
   "references/eClassifiers/SemanticDomainDescription/references/eStructuralFeatures/describes/index.html": {
     "path": "Semantic Domain Description/References/describes",
-    "link-uuid": "38df9617-57f5-4e67-8802-d938aee81242",
+    "link-uuid": "d5b122ce-9186-402d-af02-45d60b4fdd35",
     "title": "describes",
     "content": "Type Semantic Domain Multiplicity 1..*",
-    "timestamp": 1750046852374
+    "timestamp": 1750178192623
   },
   "references/eClassifiers/Concern/index.html": {
-    "link-uuid": "336f6b8d-3b80-495c-a0b4-d91974508d40",
+    "link-uuid": "fc659e67-d03d-459e-a685-7aabc88bcf19",
     "title": "Concern",
     "content": "A concern is a matter of interest or importance to a stakeholder. When a guy goes fishing his concerns are to buy bait, fuel the boat, find a good spot and catch fish. Fishing inspector&rsquo;s concerns are that the guy has a vailid fishing license and catches fish in accordance with the fishing regulations. And the wife&rsquo;s concerns are how much and what kind of fish the guy catches.",
-    "timestamp": 1750046852262
+    "timestamp": 1750178192321
   },
   "references/eClassifiers/Representation/references/eStructuralFeatures/elements/index.html": {
     "path": "Representation/References/elements",
-    "link-uuid": "f8b2f9df-c457-4e17-b4bf-cb4c4649b895",
+    "link-uuid": "ae8e6bea-2290-4bb0-a073-6705351b2fd6",
     "title": "elements",
     "content": "Type Representation Element Multiplicity 1..*",
-    "timestamp": 1750046852306
+    "timestamp": 1750178192439
   },
   "references/eClassifiers/SemanticDomainKind/references/eStructuralFeatures/governs/index.html": {
     "path": "Semantic Domain Kind/References/governs",
-    "link-uuid": "8aa1eb2d-8bb4-4c48-a7a7-6ff597157a18",
+    "link-uuid": "a0cbfed8-9355-4376-bd3b-15325fc7b0e5",
     "title": "governs",
     "content": "Type Semantic Domain Multiplicity 0..*",
-    "timestamp": 1750046852391
+    "timestamp": 1750178192682
   },
   "references/eClassifiers/Message/references/eStructuralFeatures/deliveredBy/index.html": {
     "path": "Message/References/Delivered by",
-    "link-uuid": "bcd04bcb-fe1a-4ba6-8e3b-0d54f0c276b0",
+    "link-uuid": "e8af5a6d-b6ff-4128-9530-f1536a4b5814",
     "title": "Delivered by",
     "content": "Type Channel Multiplicity 0..*",
-    "timestamp": 1750046852293
+    "timestamp": 1750178192400
   },
   "references/eClassifiers/Enterprise/references/eStructuralFeatures/operatesOn/index.html": {
     "path": "Enterprise/References/Operates on",
-    "link-uuid": "fa6018ca-b617-443c-b713-7640d87ddcd9",
+    "link-uuid": "80ec10a3-408c-42f8-9c31-e78b1b67d4e8",
     "title": "Operates on",
     "content": "Type Semantic Domain Multiplicity 0..* An enterprise operates on one or more semantic domains. For example, an Agile team developing Spring microservices to be deployed to Kubernetes operates on at least three semantic domains - Agile (stories, sprints, &hellip;), Spring (controllers, &hellip;), and Kubernetes (deployments, images, &hellip;)",
-    "timestamp": 1750046852275
+    "timestamp": 1750178192356
   },
   "references/eClassifiers/SemanticElementKind/index.html": {
-    "link-uuid": "338ef8c0-a7f4-46bb-8deb-2e2874d4fc63",
+    "link-uuid": "b0b9b099-cdf5-439d-90c5-13154ded8210",
     "title": "Semantic Element Kind",
     "content": "Semantic Element Kind is a kind/type/class of semantic elements. For example, in the Family semantic domain kind Man is a semantic element kind, and Paul is a semantic element of the Man kind.",
-    "timestamp": 1750046852413
+    "timestamp": 1750178192757
   },
   "references/eClassifiers/Viewpoint/references/eStructuralFeatures/governs/index.html": {
     "path": "Viewpoint/References/governs",
-    "link-uuid": "898f9ba4-2aa2-404c-a12a-2a73516cbcd3",
+    "link-uuid": "413d951c-53e1-4c9b-8b0d-fdc46a8c7efb",
     "title": "governs",
     "content": "Type View Multiplicity 0..*",
-    "timestamp": 1750046852463
+    "timestamp": 1750178192889
   },
   "references/eClassifiers/SemanticElement/index.html": {
-    "link-uuid": "e15e4b45-4088-42a2-b314-54950e971848",
+    "link-uuid": "45ef4cfe-481a-47c8-93bf-7240a881c998",
     "title": "Semantic Element",
     "content": "An element of a semantic domain of a specific semantic element kind. For example, Paul is an element of the sample family semantic domain of the Man kind represented by an image representation element on the family diagram representation.",
-    "timestamp": 1750046852400
+    "timestamp": 1750178192715
   },
   "references/eClassifiers/RepresentationKind/references/eStructuralFeatures/governs/index.html": {
     "path": "Representation Kind/References/governs",
-    "link-uuid": "1533e81a-bab9-4350-9919-1c4756aa16eb",
+    "link-uuid": "4f9ddd06-cb63-48da-a62a-d20d9b9b78de",
     "title": "governs",
     "content": "Type Representation Multiplicity 0..*",
-    "timestamp": 1750046852347
+    "timestamp": 1750178192547
   },
   "references/eClassifiers/RepresentationKind/references/eStructuralFeatures/domains/index.html": {
     "path": "Representation Kind/References/domains",
-    "link-uuid": "37bdcbf8-ccb9-48ee-af99-dac30d2b8b64",
+    "link-uuid": "a68616c0-5b7d-4e34-aac4-c57382b9cbec",
     "title": "domains",
     "content": "Type Semantic Domain Kind Multiplicity 1..*",
-    "timestamp": 1750046852344
+    "timestamp": 1750178192539
   },
   "references/eClassifiers/Representation/index.html": {
-    "link-uuid": "b1229572-5c76-461d-9e9d-3facb3e0a3a3",
+    "link-uuid": "f0c1b5a4-93a1-4eaa-870a-fd7a58e47093",
     "title": "Representation",
     "content": "Representation is a group of related representation elements. For example: Diagram, say, family diagram or sample family diagram Table List Chart/Graph Text Image/Picture Some representations may be automatically generated. For example, Family Model UML Diagram.",
-    "timestamp": 1750046852303
+    "timestamp": 1750178192430
   },
   "references/eClassifiers/Stakeholder/references/eStructuralFeatures/communicatesWith/index.html": {
     "path": "Stakeholder/References/Comminicates With",
-    "link-uuid": "55e986b5-353d-48b2-9d88-12c3481079ec",
+    "link-uuid": "78aa8e0c-c516-49b6-82ba-3d6b843a12d4",
     "title": "Comminicates With",
     "content": "Type Message Multiplicity 0..* Stakeholders to communicate with each other by exchanging messages, including self-messages.",
-    "timestamp": 1750046852428
+    "timestamp": 1750178192805
   },
   "references/eClassifiers/View/references/eStructuralFeatures/representations/index.html": {
     "path": "View/References/Delivered by",
-    "link-uuid": "0800622f-213c-456d-bd7d-07e475e13034",
+    "link-uuid": "70edffe0-35a5-435c-9d9f-cecabd27aee1",
     "title": "Delivered by",
     "content": "Type Representation Multiplicity 1..*",
-    "timestamp": 1750046852446
+    "timestamp": 1750178192847
   },
   "references/eClassifiers/Message/index.html": {
-    "link-uuid": "6925e7e3-8c78-4406-ac25-0d7ed4568eb4",
+    "link-uuid": "46b673c3-e0e9-430e-9feb-451a209f98e6",
     "title": "Message",
     "content": "A message is a type of view which is delivered to stakeholders via a channel. It might be argued that any view is delivered via some kind of channel and therefore is a message. This argument may be clarified in two ways: View is an abstract class focusing on addressing stakeholders concerns regardless of the channel. Message is a concrete class. There is some &ldquo;default&rdquo; channel delivering the semantic domain description. Views are delivered via the default channels and are not considered messages because they don&rsquo;t have a sender recipient. Any views exchanged between stakeholders via a non-default channel are messages. Example A class diagram (representation) and a table with class names and short descriptions (also a representation) constitute a view into a package. This view can be delivered to stakeholders as a: Web page (default channel) E-mail with HTML content E-mail with a PDF attachment",
-    "timestamp": 1750046852287
+    "timestamp": 1750178192387
   },
   "references/eClassifiers/SemanticDomainKind/references/eStructuralFeatures/elements/index.html": {
     "path": "Semantic Domain Kind/References/elements",
-    "link-uuid": "ec779e0b-5e01-4b56-96e9-21f0facd0393",
+    "link-uuid": "1bec65b7-7db3-4b09-a0da-8884a4826b84",
     "title": "elements",
     "content": "Type Semantic Element Kind Multiplicity 1..*",
-    "timestamp": 1750046852390
+    "timestamp": 1750178192677
   },
   "references/eClassifiers/SemanticDomain/index.html": {
-    "link-uuid": "66b189cc-7439-4db4-a3d6-7c6a643c3c2e",
+    "link-uuid": "0cac574e-894a-4312-bf24-295cc185106d",
     "title": "Semantic Domain",
     "content": "See Semantic Domain Kind.",
-    "timestamp": 1750046852357
+    "timestamp": 1750178192576
   },
   "references/eClassifiers/RepresentationElementKind/references/eStructuralFeatures/represents/index.html": {
     "path": "Representation Element Kind/References/represents",
-    "link-uuid": "2f44f211-98fa-4677-a09b-37d0d3e22754",
+    "link-uuid": "89f7738c-8038-4982-8459-537aa986927f",
     "title": "represents",
     "content": "Type Semantic Element Kind Multiplicity 0..*",
-    "timestamp": 1750046852330
+    "timestamp": 1750178192503
   },
   "references/eClassifiers/Viewpoint/index.html": {
-    "link-uuid": "796c34c2-0ae3-4879-afdf-845e52c9aa21",
+    "link-uuid": "eb3b3b26-30a5-49fb-b517-cab4c98f85a1",
     "title": "Viewpoint",
     "content": "Viewpoint is a specification of the conventions for a particular view kind/type. Views are instances of viewpoints. LinkedIn profile viewpoint specifies that a profile may contain &ldquo;Profile photo&rdquo; representation and &ldquo;Experience&rdquo; representation. In the above example of a web page view, the viewpoint may specify that a view shall contain an intro paragraph, a component diagram, an optional sequence diagram and then either a list or sub-sections with short descriptions of components.",
-    "timestamp": 1750046852457
+    "timestamp": 1750178192872
   },
   "references/eClassifiers/Viewpoint/references/eStructuralFeatures/representationKinds/index.html": {
     "path": "Viewpoint/References/Representation kinds",
-    "link-uuid": "3913cfe5-e092-493d-9561-e9dd2e3e5a4d",
+    "link-uuid": "366c2d6f-a084-463c-9786-b5ac2ffaa72b",
     "title": "Representation kinds",
     "content": "Type Representation Kind Multiplicity 1..*",
-    "timestamp": 1750046852465
+    "timestamp": 1750178192893
   },
   "references/eClassifiers/RepresentationElement/index.html": {
-    "link-uuid": "fc5b9ecd-0882-4572-9a00-59bfd48950ec",
+    "link-uuid": "8cbb571a-de1c-456e-9139-809c12adf927",
     "title": "Representation Element",
     "content": "An element of a representation representing zero or more semantic elements. For example: Diagram node or connection Table row or cell List item",
-    "timestamp": 1750046852315
+    "timestamp": 1750178192462
   },
   "references/eClassifiers/RepresentationKind/index.html": {
-    "link-uuid": "fd7aed73-82df-4518-84c7-29edf09ff126",
+    "link-uuid": "711f4618-b7f5-4ef5-8d38-c4f48d6457b4",
     "title": "Representation Kind",
     "content": "A specification of the conventions for a particular kind/type/class of representation. Representations are instances of representation kinds. For example, Sequence Diagram is a representation kind, the RAG sequence diagram is a representation of the &ldquo;Sequence diagram&rdquo; kind.",
-    "timestamp": 1750046852341
+    "timestamp": 1750178192531
   },
   "references/eClassifiers/Stakeholder/references/eStructuralFeatures/concerns/index.html": {
     "path": "Stakeholder/References/Concerns",
-    "link-uuid": "d2e183db-3a36-4247-92dd-fb2aa22c0eb6",
+    "link-uuid": "488c045f-153f-4754-9274-0c030a3cc2ae",
     "title": "Concerns",
     "content": "Type Concern Multiplicity 1..* A stakeholder has one or more concerns - matters of interest or importance for the stakeholders. A stakeholder must have at least one concern - otherwise it woudln&rsquo;t be a stakholder.",
-    "timestamp": 1750046852431
+    "timestamp": 1750178192809
   }
 }
