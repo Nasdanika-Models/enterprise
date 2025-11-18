@@ -4,8 +4,6 @@ package org.nasdanika.models.enterprise.processors.ecore;
 
 import java.util.function.BiConsumer;
 
-import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
 import org.nasdanika.common.Context;
 import org.nasdanika.common.ProgressMonitor;
@@ -43,7 +41,7 @@ public class SemanticElementKindProcessorsFactory {
 	)
 	public EClassNodeProcessor createSemanticElementKindProcessor(
 			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
-			java.util.function.Function<ProgressMonitor, Action> prototypeProvider,
+			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
 		return new EClassNodeProcessor(config, context, prototypeProvider) {
@@ -67,7 +65,7 @@ public class SemanticElementKindProcessorsFactory {
 	)
 	public EReferenceNodeProcessor createGovernsProcessor(
 			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
-			java.util.function.Function<ProgressMonitor, Action> prototypeProvider,
+			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
 		return new EReferenceNodeProcessor(config, context, prototypeProvider) {

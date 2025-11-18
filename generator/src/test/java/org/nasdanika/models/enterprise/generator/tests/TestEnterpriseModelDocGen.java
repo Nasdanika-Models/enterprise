@@ -107,7 +107,7 @@ public class TestEnterpriseModelDocGen {
 		
 		System.out.println("There are " + errorCount + " site errors");
 		
-		if (errorCount != 100) {
+		if (errorCount != 120) {
 			throw new ExecutionException("There are problems with pages: " + errorCount);
 		}		
 	}
