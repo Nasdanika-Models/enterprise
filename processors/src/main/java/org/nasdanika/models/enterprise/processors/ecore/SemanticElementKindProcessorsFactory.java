@@ -40,7 +40,7 @@ public class SemanticElementKindProcessorsFactory {
                     """
 	)
 	public EClassNodeProcessor createSemanticElementKindProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -64,7 +64,7 @@ public class SemanticElementKindProcessorsFactory {
 			description = "Semantic element kind governs (constrols structure) of semantic elements of its kind"
 	)
 	public EReferenceNodeProcessor createGovernsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		

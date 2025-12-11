@@ -26,7 +26,15 @@
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/components/table.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/3d-force-graph"></script><!-- Node text styling -->      
+    <script src="https://cdn.jsdelivr.net/npm/3d-force-graph"></script><script type="importmap">
+{
+    "imports" : {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.177.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.177.0/examples/jsm/"
+    }
+}
+</script>    
+<!-- Node text styling -->      
 <style>
   .node-label {
         font-size: 12px;
@@ -51,14 +59,14 @@
     <div class="container-fluid nsd-app-container">
       <div class="row">
         <div class="col nsd-app-header">
-          <a href="https://github.com/Nasdanika-Models" data-nsd-label-uuid="6cf9cf6a-f1c1-4568-8284-3972fde97f47" class="nsd-app-header-title">
+          <a href="https://github.com/Nasdanika-Models" data-nsd-label-uuid="ed3de434-5c2f-4acd-8c5a-539b382b2c9f" class="nsd-app-header-title">
             <img src="https://docs.nasdanika.org/images/nasdanika-logo.png" class="nsd-app-label-icon"/>Nasdanika Models</a>
           <ul class="nav nsd-app-header-navs">
             <li class="nav-item">
-              <a href="../../../../../../search.html" data-nsd-label-uuid="803117bc-1203-4a2c-b72c-fdb50a866b81" class="nav-link"><span class="fas fa-search nsd-app-label-icon"></span>Search</a>
+              <a href="../../../../../../search.html" data-nsd-label-uuid="440de47b-dc2a-4cdd-9783-f6efb6cf2f83" class="nav-link"><span class="fas fa-search nsd-app-label-icon"></span>Search</a>
             </li>
             <li class="nav-item">
-              <a href="../../../../../../glossary.html" data-nsd-label-uuid="45e4e5ce-9a54-47b3-8e42-8a0cbe118ac1" class="nav-link"><span class="fas fa-book nsd-app-label-icon"></span>Glossary</a>
+              <a href="../../../../../../glossary.html" data-nsd-label-uuid="2eed0c61-cfb2-4b8e-b887-ccbd6c59ac8d" class="nav-link"><span class="fas fa-book nsd-app-label-icon"></span>Glossary</a>
             </li>
           </ul>
         </div>
@@ -66,34 +74,34 @@
       <div class="row">
         <div class="col nsd-app-navbar">
           <ul class="navbar navbar-light navbar-expand-lg">
-            <a href="../../../../../../index.html" title="A model of an enterprise operating on semantic domains" data-nsd-label-uuid="5338d2a1-1ca6-49a9-853b-62dd6ce7be68" class="navbar-brand">
+            <a href="../../../../../../index.html" title="A model of an enterprise operating on semantic domains" data-nsd-label-uuid="d05b6cbd-363c-489e-9496-83364dca44fd" class="navbar-brand">
               <img src="https://img.icons8.com/color/48/client-company.png" class="nsd-app-label-icon"/>Enterprise Model</a>
-            <button type="button" data-toggle="collapse" data-target="#nsd_mg" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span>
+            <button type="button" data-toggle="collapse" data-target="#nsd_1cp" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd_mg" class="collapse navbar-collapse">
+            <div id="nsd_1cp" class="collapse navbar-collapse">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a href="../../../../../../classifiers.html" data-nsd-label-uuid="1a72e2cd-1af3-4dc2-bb37-eebe25ee0aab" class="nav-link">Classifiers</a>
+                  <a href="../../../../../../classifiers.html" data-nsd-label-uuid="f6e899f2-3a24-41c9-a29f-86630c77ba43" class="nav-link">Classifiers</a>
                 </li>
                 <li class="nav-item">
-                  <a href="../../../../../../diagram.html" data-nsd-label-uuid="f3f36fce-ff17-41c4-8b75-6a72fc4618b7" class="nav-link"><span class="fas fa-project-diagram nsd-app-label-icon"></span>Diagram</a>
+                  <a href="../../../../../../diagram.html" data-nsd-label-uuid="c5ffd1f5-cbc5-4be3-89b0-a8e39ab7b8a6" class="nav-link"><span class="fas fa-project-diagram nsd-app-label-icon"></span>Diagram</a>
                 </li>
                 <li class="nav-item">
-                  <li data-nsd-label-uuid="33a5f65a-4f21-42de-8218-8a4121a193e2" class="dropdown">
+                  <li data-nsd-label-uuid="8232050a-7b03-4aa4-8852-e3b63e9689ff" class="dropdown">
                     <a role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">
                       <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png" class="nsd-app-label-icon"/>Graphs</a>
                     <div class="dropdown-menu">
-                      <a href="../../../../../../default-graph.html" data-nsd-label-uuid="2abbb465-e2bd-4a80-b7f7-c15b668f21e3" class="dropdown-item">Default Graph</a>
-                      <a href="../../../../../../circular-layout-graph.html" data-nsd-label-uuid="60b74099-51b7-4566-a95e-568fb94164f8" class="dropdown-item">Circular Graph</a>
-                      <a href="../../../../../../force-layout-graph.html" data-nsd-label-uuid="0867edd7-6d88-402d-884c-710c54bc250e" class="dropdown-item">Force Graph</a>
-                      <a href="../../../../../../force-layout-graph-3d.html" data-nsd-label-uuid="8295b580-ae9e-4583-b200-17909ecef14e" class="dropdown-item">Force Graph 3D</a>
-                      <a href="../../../../../../force-layout-graph-3d-detailed.html" data-nsd-label-uuid="a68f383c-aaee-45e7-af72-3277dc5a27df" class="dropdown-item">Force Graph 3D Detailed</a>
+                      <a href="../../../../../../default-graph.html" data-nsd-label-uuid="d2670f07-461d-4e0f-9934-c081f5639025" class="dropdown-item">Default Graph</a>
+                      <a href="../../../../../../circular-layout-graph.html" data-nsd-label-uuid="44a72b55-39f2-4aa3-a259-606e27f52bc6" class="dropdown-item">Circular Graph</a>
+                      <a href="../../../../../../force-layout-graph.html" data-nsd-label-uuid="2487fd38-cdaf-43e4-90a2-02a26f900d3c" class="dropdown-item">Force Graph</a>
+                      <a href="../../../../../../force-layout-graph-3d.html" data-nsd-label-uuid="6282af00-7c71-40c1-a87e-0794b38ecd3c" class="dropdown-item">Force Graph 3D</a>
+                      <a href="../../../../../../force-layout-graph-3d-detailed.html" data-nsd-label-uuid="b0c44751-438a-4a6c-b033-3b5bba528843" class="dropdown-item">Force Graph 3D Detailed</a>
                       <div title="With dependencies and sub-packages" class="dropdown-divider"></div>
-                      <a href="../../../../../../default-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="c9205b41-b5b8-4dd8-b534-54264a5821d0" class="dropdown-item">Default Graph</a>
-                      <a href="../../../../../../circular-layout-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="df3330bd-14a2-4ed2-a82d-4357c5184407" class="dropdown-item">Circular Graph</a>
-                      <a href="../../../../../../force-layout-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="9390044c-0f5a-44f8-86b9-b19236e43c41" class="dropdown-item">Force Graph</a>
-                      <a href="../../../../../../force-layout-graph-3d-with-dependencies-and-subpackages.html" data-nsd-label-uuid="8ce80aee-b163-4c5d-86c7-9a1f48c90838" class="dropdown-item">Force Graph 3D</a>
-                      <a href="../../../../../../force-layout-graph-3d-with-dependencies-and-subpackages-detailed.html" data-nsd-label-uuid="8e146f92-d89d-4483-ac52-ce40bbd9c88f" class="dropdown-item">Force Graph 3D Detailed</a>
+                      <a href="../../../../../../default-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="95b3d402-86fb-4ecc-8925-12a431db5d19" class="dropdown-item">Default Graph</a>
+                      <a href="../../../../../../circular-layout-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="a4fb25ed-92ef-43cf-9d98-8bad1e2c8ded" class="dropdown-item">Circular Graph</a>
+                      <a href="../../../../../../force-layout-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="fa70675e-1ae2-4326-8446-e78a0145aa71" class="dropdown-item">Force Graph</a>
+                      <a href="../../../../../../force-layout-graph-3d-with-dependencies-and-subpackages.html" data-nsd-label-uuid="54cc9a7e-95f7-44a2-9496-4cb4ef018374" class="dropdown-item">Force Graph 3D</a>
+                      <a href="../../../../../../force-layout-graph-3d-with-dependencies-and-subpackages-detailed.html" data-nsd-label-uuid="67d3a279-eb98-4544-8f14-f39dcbf34ade" class="dropdown-item">Force Graph 3D Detailed</a>
                     </div>
                   </li>
                 </li>
@@ -104,56 +112,38 @@
       </div>
       <div class="row nsd-app-content-row">
         <div class="col nsd-app-navigation-panel">
-          <div class="list-group list-group-flush">
-            <a href="../../../../Channel/index.html" title="Something that passes messages between stakeholders" data-nsd-label-uuid="ad798a87-3c0a-42bc-8e51-f603a64cfe52" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Channel</a>
-            <a href="../../../../Concern/index.html" title="A matter of interest or importance to a stakeholder" data-nsd-label-uuid="c78b7c7c-cea4-4497-b5e0-bf0ab7d68763" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Concern</a>
-            <a href="../../../../Enterprise/index.html" title="A group of parties (stakeholders) and resources devoted to achieving a mission" data-nsd-label-uuid="3a41acf7-9c41-4ae4-a58f-822bc4730233" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Enterprise</a>
-            <a href="../../../../Message/index.html" title="A type of view which is delivered via a channel" data-nsd-label-uuid="b6377d62-edba-4251-b93f-08dfe2eb51eb" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Message</a>
-            <a href="../../../../Representation/index.html" title="A group of related representation elements" data-nsd-label-uuid="d5c0bcfd-dea2-4535-9144-48b374f7bff5" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Representation</a>
-            <a href="../../../index.html" title="An element (part) of a representation" data-nsd-label-uuid="376a61ec-9814-485e-8473-fe815353df31" class="list-group-item list-group-action active">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Representation Element</a>
-            <a href="../../../../RepresentationElementKind/index.html" title="A kind (type/class) of representation elements" data-nsd-label-uuid="431c6ec1-5f26-449c-9bd7-c98f80e498d3" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Representation Element Kind</a>
-            <a href="../../../../RepresentationKind/index.html" title="A specification of the conventions for a particular kind/type/class of representation" data-nsd-label-uuid="e6ec4892-c03d-449d-8451-ef92731ad326" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Representation Kind</a>
-            <a href="../../../../SemanticDomain/index.html" title="An area of meaning and the words used to talk about it" data-nsd-label-uuid="86ce2266-5b59-4bb1-a6bf-40ed1f201629" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Semantic Domain</a>
-            <a href="../../../../SemanticDomainDescription/index.html" title="A collection of views into a set of semantic domains, on which the enterprise operates, addressing a set of stakeholder concerns" data-nsd-label-uuid="6d8449b8-94fc-4344-b8de-a6e7906bfa70" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Semantic Domain Description</a>
-            <a href="../../../../SemanticDomainKind/index.html" title="A metamodel of a semantic domain" data-nsd-label-uuid="bfb6e4cc-2e7b-4ce4-81da-425a24583490" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Semantic Domain Kind</a>
-            <a href="../../../../SemanticElement/index.html" title="An element of a semantic domain" data-nsd-label-uuid="cf30dcb4-751c-4737-b65a-c4e45ab52243" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Semantic Element</a>
-            <a href="../../../../SemanticElementKind/index.html" title="A kind (type/class) of semantic elements" data-nsd-label-uuid="c8888336-efde-4f92-b8eb-cf4cf4965a9a" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Semantic Element Kind</a>
-            <a href="../../../../Stakeholder/index.html" title="An entity having interest in the Enterprise" data-nsd-label-uuid="9b2dbbc9-825d-420c-a579-9428d3d6444c" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Stakeholder</a>
-            <a href="../../../../View/index.html" title="A group of related representations of semantic domain elements of interest from the perspective of a related set of concerns" data-nsd-label-uuid="ccb21491-be6c-4416-933c-6d124955bb11" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>View</a>
-            <a href="../../../../Viewpoint/index.html" title="A specification of the conventions for a particular view kind/type" data-nsd-label-uuid="a67888fe-9409-4a44-8abd-f2fdbeb622c7" class="list-group-item list-group-action">
-              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Viewpoint</a>
-          </div>
+          <input type="text" id="941c8cf5-84b4-4193-9659-b6e23f625a8d-navigation-panel_searchInput" title="Full-text search. You can use wildcards, e.g. 'foo*' or 'f*o'; title or content fields, e.g. 'title:foo* bar'; boosts, e.g. 'foo^10 bar'; fuzzy matches, e.g. 'foo~1'; and term presence, e.g. '+foo bar -baz'" class="form-control mt-1"/>
+          <div id="941c8cf5-84b4-4193-9659-b6e23f625a8d-navigation-panel"></div>
+          <script>$(document).ready( function() {
+$('#941c8cf5-84b4-4193-9659-b6e23f625a8d-navigation-panel').jstree(function(tree) { tree.state.filter = function(state) { delete state.core.selected; return state; };  tree.search.search_callback = function(searchStr, node) { if (typeof window.nsdJsTreeSearchCallback === 'function') return window.nsdJsTreeSearchCallback(searchStr, node); var sf = new $.vakata.search(searchStr, true, { caseSensitive : false, fuzzy : false }); return sf.search(node.text).isMatch; }; return tree; }({"core":{"data":[{"a_attr":{"title":"Something that passes messages between stakeholders","onclick":"window.location='../../../../Channel/index.html';"},"data-nsd-label-uuid":"2aa2c3fd-56d6-4bf7-b94c-71434f09815c","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-eb7ea2ca-9172-4f11-9125-dc43027d1a3a","text":"Channel","type":"leaf"},{"a_attr":{"title":"A matter of interest or importance to a stakeholder","onclick":"window.location='../../../../Concern/index.html';"},"data-nsd-label-uuid":"47289fe6-142e-4522-bf38-d718f34cd13a","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-aa4e911b-69fb-47a9-b775-7522c50b6cca","text":"Concern","type":"leaf"},{"a_attr":{"title":"A group of parties (stakeholders) and resources devoted to achieving a mission","onclick":"window.location='../../../../Enterprise/index.html';"},"data-nsd-label-uuid":"5e679ede-2e68-45fd-8f4d-16735839a4d1","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-9edada8a-ba33-433e-9431-ea9f16b4b541","text":"Enterprise","type":"leaf"},{"a_attr":{"title":"A type of view which is delivered via a channel","onclick":"window.location='../../../../Message/index.html';"},"data-nsd-label-uuid":"4629c408-a2e2-4ae9-bfcf-d18ad476e297","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-e06cd4e9-7dca-40f4-b931-89385c0a4121","text":"Message","type":"leaf"},{"a_attr":{"title":"A group of related representation elements","onclick":"window.location='../../../../Representation/index.html';"},"data-nsd-label-uuid":"cbf620df-fe8d-46e0-a9b5-5ef6b64400e0","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-16b25cd1-b454-4224-b136-d7a72baae2ad","text":"Representation","type":"leaf"},{"a_attr":{"title":"An element (part) of a representation","onclick":"window.location='../../../index.html';"},"data-nsd-label-uuid":"bb72727f-1fa2-43a5-b4b8-a1052f04875c","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","state":{"selected":true},"id":"nsd-app-nav-item-bf6b640b-cd9d-47a3-8aac-8ccdffa2e996","text":"Representation Element","type":"leaf"},{"a_attr":{"title":"A kind (type/class) of representation elements","onclick":"window.location='../../../../RepresentationElementKind/index.html';"},"data-nsd-label-uuid":"747257d9-73f1-4414-86de-9f6e7caeb55f","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-5113e5eb-b030-410c-a8c3-497bde340024","text":"Representation Element Kind","type":"leaf"},{"a_attr":{"title":"A specification of the conventions for a particular kind/type/class of representation","onclick":"window.location='../../../../RepresentationKind/index.html';"},"data-nsd-label-uuid":"7bfb53fa-8b07-4206-bce4-89ddbb4613a4","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-3d6476b6-8fb4-4903-b055-e5a41c0af1be","text":"Representation Kind","type":"leaf"},{"a_attr":{"title":"An area of meaning and the words used to talk about it","onclick":"window.location='../../../../SemanticDomain/index.html';"},"data-nsd-label-uuid":"70c93279-8ac8-42f3-8247-b2913059ec49","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-34e66fce-cee4-4916-8099-4bb97d2dc5fd","text":"Semantic Domain","type":"leaf"},{"a_attr":{"title":"A collection of views into a set of semantic domains, on which the enterprise operates, addressing a set of stakeholder concerns","onclick":"window.location='../../../../SemanticDomainDescription/index.html';"},"data-nsd-label-uuid":"b7c241a2-959a-43db-9697-475acf445a36","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-cde5f9d7-9a96-4014-8991-6d221a10b444","text":"Semantic Domain Description","type":"leaf"},{"a_attr":{"title":"A metamodel of a semantic domain","onclick":"window.location='../../../../SemanticDomainKind/index.html';"},"data-nsd-label-uuid":"895816cf-8171-4382-96a5-6b587de52b59","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-7e7ed368-0956-42de-a021-2aac6911661a","text":"Semantic Domain Kind","type":"leaf"},{"a_attr":{"title":"An element of a semantic domain","onclick":"window.location='../../../../SemanticElement/index.html';"},"data-nsd-label-uuid":"6cf3631a-7043-4ecd-8b13-46c6964f3500","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-aa5d8057-3c3c-4bcc-a4a4-c7b01b75b235","text":"Semantic Element","type":"leaf"},{"a_attr":{"title":"A kind (type/class) of semantic elements","onclick":"window.location='../../../../SemanticElementKind/index.html';"},"data-nsd-label-uuid":"8d8bd2a1-397f-43d7-b358-bd0faf5b1a83","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-ce2187cc-f910-456f-8bc7-0680e37091aa","text":"Semantic Element Kind","type":"leaf"},{"a_attr":{"title":"An entity having interest in the Enterprise","onclick":"window.location='../../../../Stakeholder/index.html';"},"data-nsd-label-uuid":"188b41f8-f1d9-41c5-bf4a-d8caac3bffa3","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-16a01aef-4763-49d0-aeff-f873d14a66ac","text":"Stakeholder","type":"leaf"},{"a_attr":{"title":"A group of related representations of semantic domain elements of interest from the perspective of a related set of concerns","onclick":"window.location='../../../../View/index.html';"},"data-nsd-label-uuid":"da6cfb92-8cd6-4283-b495-7d9b1bd0d88e","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-0cbb3ddb-0004-446e-8b3b-188902d82f47","text":"View","type":"leaf"},{"a_attr":{"title":"A specification of the conventions for a particular view kind/type","onclick":"window.location='../../../../Viewpoint/index.html';"},"data-nsd-label-uuid":"2f9445f1-774c-4b97-a832-7564e9c7b035","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-b262ace0-3fb6-49df-99ef-6ba98f10fd0a","text":"Viewpoint","type":"leaf"}]},"search":{"show_only_matches":true,"show_only_matches_children":true},"types":{"leaf":{"icon":"jstree-file"}},"plugins":["state","type","search"],"state":{"key":"941c8cf5-84b4-4193-9659-b6e23f625a8d-navigation-panel"}}));
+// Tokens: searchInputSelector, timer, treeSelector
+$('#941c8cf5-84b4-4193-9659-b6e23f625a8d-navigation-panel_searchInput').keyup(function () {
+    if (window['nsd_jstTreeSearchTimer_nsd_1d6']) { 
+		clearTimeout(window['nsd_jstTreeSearchTimer_nsd_1d6']); 
+	}
+    window['nsd_jstTreeSearchTimer_nsd_1d6'] = setTimeout(function () {
+      var v = $('#941c8cf5-84b4-4193-9659-b6e23f625a8d-navigation-panel_searchInput').val();
+      $('#941c8cf5-84b4-4193-9659-b6e23f625a8d-navigation-panel').jstree(true).search(v);
+    }, 250);
+  });
+
+});</script>
         </div>
-        <div data-nsd-label-uuid="077b2b90-d33f-4841-aea9-0e096224232b" data-nsd-action-uris="uuid:077b2b90-d33f-4841-aea9-0e096224232b" class="col nsd-app-content-panel">
+        <main data-nsd-label-uuid="49b64d57-6c33-4237-9416-e5c99404799a" data-nsd-action-uris="uuid:49b64d57-6c33-4237-9416-e5c99404799a" class="col nsd-app-content-panel">
           <div class="container-fluid">
             <div class="row nsd-app-content-panel-breadcrumb-row">
               <div class="col">
                 <nav aria-label="breadcrumb" class="nsd-app-content-panel-breadcrumb">
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                      <a href="../../../index.html" title="An element (part) of a representation" data-nsd-label-uuid="376a61ec-9814-485e-8473-fe815353df31">
+                      <a href="../../../index.html" title="An element (part) of a representation" data-nsd-label-uuid="bb72727f-1fa2-43a5-b4b8-a1052f04875c">
                         <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Representation Element</a>
                     </li>
                     <li class="breadcrumb-item">
-                      <a href="../../../references.html" data-nsd-label-uuid="de20da60-575e-4f06-9398-17ea98118a7f">
+                      <a href="../../../references.html" data-nsd-label-uuid="4794931f-a2ab-4e5b-ac67-a6d256315977">
                         <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" class="nsd-app-label-icon"/>References</a>
                     </li>
-                    <li class="breadcrumb-item active"><span title="Semantic element(s) represented by this representation element. " data-nsd-label-uuid="077b2b90-d33f-4841-aea9-0e096224232b"><img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" class="nsd-app-label-icon"/>represents</span>
+                    <li class="breadcrumb-item active"><span title="Semantic element(s) represented by this representation element. " data-nsd-label-uuid="49b64d57-6c33-4237-9416-e5c99404799a"><img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" class="nsd-app-label-icon"/>represents</span>
                     </li>
                   </ol>
                 </nav>
@@ -161,7 +151,7 @@
             </div>
             <div class="row nsd-app-content-panel-title-and-items-row">
               <div class="col-auto">
-                <H1><span title="Semantic element(s) represented by this representation element. " data-nsd-label-uuid="077b2b90-d33f-4841-aea9-0e096224232b" class="nsd-app-content-panel-title"><img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" class="nsd-app-label-icon"/>represents<a href="https://ecore.models.nasdanika.org/references/eClassifiers/EReference/index.html" style="vertical-align:super;font-size:x-small;margin-left:0.2em"><span class="far fa-question-circle nsd-app-label-icon"></span></a></span>
+                <H1><span title="Semantic element(s) represented by this representation element. " data-nsd-label-uuid="49b64d57-6c33-4237-9416-e5c99404799a" class="nsd-app-content-panel-title"><img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" class="nsd-app-label-icon"/>represents<a href="https://ecore.models.nasdanika.org/references/eClassifiers/EReference/index.html" style="vertical-align:super;font-size:x-small;margin-left:0.2em"><span class="far fa-question-circle nsd-app-label-icon"></span></a></span>
                 </H1>
               </div>
             </div>
@@ -189,13 +179,13 @@
               </div>
             </div>
           </div>
-        </div>
+        </main>
       </div>
       <div class="row">
         <div class="col nsd-app-footer">
           <ul class="nav nsd-app-footer-navs">
             <li class="nav-item">
-              <a href="https://github.com/Nasdanika-Models/enterprise" data-nsd-label-uuid="d8af9ef8-e27b-42fc-8b0a-33b207cf79bf" class="nav-link"><span class="fab fa-github nsd-app-label-icon"></span>Sources</a>
+              <a href="https://github.com/Nasdanika-Models/enterprise" data-nsd-label-uuid="096b83f4-9d1c-4f91-8d15-7f728d43a40b" class="nav-link"><span class="fab fa-github nsd-app-label-icon"></span>Sources</a>
             </li>
             <li class="nav-item"><span class="navbar-text">&nbsp;&bull;&nbsp;</span>
             </li>

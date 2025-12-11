@@ -51,7 +51,7 @@ public class MessageProcessorsFactory extends ViewProcessorsFactory {
                     """
 	)
 	public EClassNodeProcessor createMessageProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -76,7 +76,7 @@ public class MessageProcessorsFactory extends ViewProcessorsFactory {
 			description = "A message can be delivered over one or more channels"
 	)
 	public EReferenceNodeProcessor createDeliveredByProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		

@@ -40,7 +40,7 @@ public class RepresentationElementProcessorsFactory {
                     """
 	)
 	public EClassNodeProcessor createRepresentationElementProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -64,7 +64,7 @@ public class RepresentationElementProcessorsFactory {
 			description = "Semantic element(s) represented by this representation element. "
 	)
 	public EReferenceNodeProcessor createRepresentsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		

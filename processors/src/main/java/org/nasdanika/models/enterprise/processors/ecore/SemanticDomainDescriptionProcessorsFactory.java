@@ -41,7 +41,7 @@ public class SemanticDomainDescriptionProcessorsFactory {
                     """
 	)
 	public EClassNodeProcessor createSemanticDomainDescriptionProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -65,7 +65,7 @@ public class SemanticDomainDescriptionProcessorsFactory {
 			description = "Semantic domains described by this description"
 	)
 	public EReferenceNodeProcessor createDescribesProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -89,7 +89,7 @@ public class SemanticDomainDescriptionProcessorsFactory {
 			description = "Views constituting the description"
 	)
 	public EReferenceNodeProcessor createViewsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		

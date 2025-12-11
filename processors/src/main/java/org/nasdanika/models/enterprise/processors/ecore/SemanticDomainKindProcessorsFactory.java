@@ -53,7 +53,7 @@ public class SemanticDomainKindProcessorsFactory {
                     """
 	)
 	public EClassNodeProcessor createSemanticDomainKindProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -77,7 +77,7 @@ public class SemanticDomainKindProcessorsFactory {
 			description = "Semantic domain kind governs (constrols structure) of semantic domains of its kind"
 	)
 	public EReferenceNodeProcessor createGovernsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -101,7 +101,7 @@ public class SemanticDomainKindProcessorsFactory {
 			description = "Elements of this semantic domain kind"
 	)
 	public EReferenceNodeProcessor createElementsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		

@@ -42,7 +42,7 @@ public class SemanticElementProcessorsFactory {
                     """
 	)
 	public EClassNodeProcessor createSemanticElementProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -67,7 +67,7 @@ public class SemanticElementProcessorsFactory {
 			description = "A semantic element is represented by zero or more representation elements on zero or more representations"
 	)
 	public EReferenceNodeProcessor createRepresentedByProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		

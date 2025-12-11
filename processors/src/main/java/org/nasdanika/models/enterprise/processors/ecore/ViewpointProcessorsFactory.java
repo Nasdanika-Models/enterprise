@@ -40,7 +40,7 @@ public class ViewpointProcessorsFactory {
                     """
 	)
 	public EClassNodeProcessor createViewpointProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -64,7 +64,7 @@ public class ViewpointProcessorsFactory {
 			description = "A viewpoint frames one or more concerns which views of its kind address"
 	)
 	public EReferenceNodeProcessor createFramesProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -88,7 +88,7 @@ public class ViewpointProcessorsFactory {
 			description = "Views of this viewpoint type"
 	)
 	public EReferenceNodeProcessor createGovernsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -113,7 +113,7 @@ public class ViewpointProcessorsFactory {
 			description = "Domain kinds this viewpoint operates on"
 	)
 	public EReferenceNodeProcessor createDomainKindsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -138,7 +138,7 @@ public class ViewpointProcessorsFactory {
 			description = "Representation kinds used by this viewpoint"
 	)
 	public EReferenceNodeProcessor createRepresentationKindsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		

@@ -38,7 +38,7 @@ public class RepresentationKindProcessorsFactory {
                     """
 	)
 	public EClassNodeProcessor createRepresentationKindProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -62,7 +62,7 @@ public class RepresentationKindProcessorsFactory {
 			description = "Representation kind governs (constrols structure) of representations of its kind"
 	)
 	public EReferenceNodeProcessor createGovernsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -86,7 +86,7 @@ public class RepresentationKindProcessorsFactory {
 			description = "Elements of this representation kind"
 	)
 	public EReferenceNodeProcessor createElementsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
@@ -110,7 +110,7 @@ public class RepresentationKindProcessorsFactory {
 			description = "Semantic domain kinds this representation kind operates on"
 	)
 	public EReferenceNodeProcessor createDomainsProcessor(
-			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
+			NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config, 
 			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
